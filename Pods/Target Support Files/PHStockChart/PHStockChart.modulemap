@@ -1,0 +1,6 @@
+framework module PHStockChart {
+  umbrella header "PHStockChart-umbrella.h"
+
+  export *
+  module * { export * }
+}
