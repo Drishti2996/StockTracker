@@ -3,139 +3,116 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0234FEB3A5DBAFC5792208D64D2CBEEB /* GuPiaoView.h in Headers */ = {isa = PBXBuildFile; fileRef = 529111C4C8D503797190EBE82C6E4AE1 /* GuPiaoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0417806059F685E656D3E02DA7411CA6 /* LightweightCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CA8F6348750CE7E4405904CD9E0008 /* LightweightCharts.swift */; };
-		057256ADDA795ABCE9E057ED12A93AA7 /* CandlestickSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68ADFCB49BD561F4F30DDA2267B6921 /* CandlestickSeries.swift */; };
-		0AE71982E59E6EC8F195E593280AA155 /* SeriesObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB776891C16B03A71B60F9A86930CCDB /* SeriesObject.swift */; };
-		0F155E70E9099D0A62DEB3FA0E19462B /* GridLineOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89DA9E7095C6973A3B5A16C5E73C05 /* GridLineOptions.swift */; };
-		0FD73594143232A16A8912B34B46879A /* SeriesApi+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291A1C03DAD1F219B142293C1C0A22B3 /* SeriesApi+Extension.swift */; };
-		1110FCA4CDA757CDFA6FBAA4A9A86F9D /* SeriesOptionsCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821B689A02AC11D40B11F2C6B0E55094 /* SeriesOptionsCommon.swift */; };
-		13AA7D79DCEB0A33CBDC66CD8158FE8F /* PriceScaleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7582F9D32276095FB9A42139AAA028 /* PriceScaleApi.swift */; };
-		17F257FA2A9A0F1440493884F9A5BC16 /* TickMarkFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1CF8DB0E8566722F8628A0D2401E8B /* TickMarkFormatter.swift */; };
-		1E010168E469E021EAF8A768114EBE8E /* LineWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AD0278DBF1A105B1BAB896CB447F45 /* LineWidth.swift */; };
-		20EA5B3D5291E2B476D6F098A7170010 /* TimeScaleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB3A0D16ADAF7B6D1F77062BC77B32E /* TimeScaleOptions.swift */; };
-		26C4DC7C1D603F6A712AF76E9758E974 /* Pods-StockManager-StockManagerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36ED50B93C5E8E2DF6DA94FA4A72F0 /* Pods-StockManager-StockManagerUITests-dummy.m */; };
-		274492B294194C78F805D7E72E100E41 /* CrosshairLineOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8795206C050F8099CF83DCE9F53DD6BE /* CrosshairLineOptions.swift */; };
-		2AF01E5C39B3C53436D9C3C205BBE2AF /* ChartApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2E8789376A07B04F3507EAA3C20C57 /* ChartApi.swift */; };
-		2B51F7BFBAA9CD00B23BC26B4DF7F4D7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */; };
-		2E7931F5099F40F98FA78F53EEAE47D4 /* JavaScriptObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0610D0FF7995A98995BF96854219721 /* JavaScriptObject.swift */; };
-		2E95C36750C43F53D54AD36D7EE051F6 /* PHStockChart-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B857AC531C836823D8D33F8A15865A98 /* PHStockChart-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F4EAE03EA93782F0B03344F88B39C0B /* LineSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B6445BB32B5C369B71343C620AEB3BE /* LineSeries.swift */; };
-		301263E5939752C4415549A91216F84D /* ShiZilayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526DF4DC983F31C399448B18D394A80 /* ShiZilayer.m */; };
-		302EB856846AE158C3F963BBA11BBB80 /* PriceFormatterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F43CF426A7C5D5E79FC8CB38DB0969 /* PriceFormatterApi.swift */; };
-		34010A61859CE4DE4EE5B99E1E4F6465 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58A0BEC596F830D51CB0537C7F19C8 /* Chart.swift */; };
-		36D57C962C711F3823755C9821FBC163 /* TimeScaleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC01A5C7114C70B57B0BE545926C841 /* TimeScaleApi.swift */; };
-		37E13364C821FCFF409D294D66E5E0F2 /* LightweightCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 779C8ED983AC17BDA377F03C1FD54FFE /* LightweightCharts-dummy.m */; };
-		39E656A1ECECA0E3EB536421F39CDA46 /* JavaScriptMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1FBD03186AA7AEA337D68181476381A /* JavaScriptMethod.swift */; };
-		3DC1B782A057ED09E4D15290EA9EC24D /* LayoutOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F136458EF665BC4ABBC7628FA49CA352 /* LayoutOptions.swift */; };
+		0417806059F685E656D3E02DA7411CA6 /* LightweightCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61B7B79C91A4AD23BA0887C9B11C9D68 /* LightweightCharts.swift */; };
+		057256ADDA795ABCE9E057ED12A93AA7 /* CandlestickSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01105EEBE391EAAD3F6FB2F03E12D7D /* CandlestickSeries.swift */; };
+		0AE71982E59E6EC8F195E593280AA155 /* SeriesObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA5C5A7AFE1CFFE32261818D81DF4C /* SeriesObject.swift */; };
+		0F155E70E9099D0A62DEB3FA0E19462B /* GridLineOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E4CA060D1262D260B24700604B719E /* GridLineOptions.swift */; };
+		0FD73594143232A16A8912B34B46879A /* SeriesApi+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F845E1626AF01D223DDECFDACDEBD95 /* SeriesApi+Extension.swift */; };
+		1110FCA4CDA757CDFA6FBAA4A9A86F9D /* SeriesOptionsCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0523AB2E8D16861C31D5C5A2587316 /* SeriesOptionsCommon.swift */; };
+		13AA7D79DCEB0A33CBDC66CD8158FE8F /* PriceScaleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3054803E994D24134AA2057C9DB9AD5E /* PriceScaleApi.swift */; };
+		17F257FA2A9A0F1440493884F9A5BC16 /* TickMarkFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D60B6FCEC2ED2195A5956FC2A5556BD /* TickMarkFormatter.swift */; };
+		1E010168E469E021EAF8A768114EBE8E /* LineWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = C656E0EFED14505FF1744292D319EF46 /* LineWidth.swift */; };
+		20EA5B3D5291E2B476D6F098A7170010 /* TimeScaleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648E9176E899578A02B0C01F9B59C86F /* TimeScaleOptions.swift */; };
+		274492B294194C78F805D7E72E100E41 /* CrosshairLineOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DB0D6F5B1D41A3DAFB65493510D19 /* CrosshairLineOptions.swift */; };
+		2AF01E5C39B3C53436D9C3C205BBE2AF /* ChartApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2B6131D893B7990DD571B7C5E571EF4 /* ChartApi.swift */; };
+		2E7931F5099F40F98FA78F53EEAE47D4 /* JavaScriptObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8384C7B87645FE62D51D54330F219437 /* JavaScriptObject.swift */; };
+		2F4EAE03EA93782F0B03344F88B39C0B /* LineSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39629179CC5B780BD5B7B7797F29CFEB /* LineSeries.swift */; };
+		302EB856846AE158C3F963BBA11BBB80 /* PriceFormatterApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E287D7F2FF2EB4E17E5F1D940F1DC2FD /* PriceFormatterApi.swift */; };
+		34010A61859CE4DE4EE5B99E1E4F6465 /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FEDE4F1BDF6BBA089FF435A3C6BA92 /* Chart.swift */; };
+		36D57C962C711F3823755C9821FBC163 /* TimeScaleApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6E665CB1C3B1D4E618C9BB479DDBA4 /* TimeScaleApi.swift */; };
+		37E13364C821FCFF409D294D66E5E0F2 /* LightweightCharts-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABB5358E158C0BD83963810C9263215 /* LightweightCharts-dummy.m */; };
+		39B8A7E070AD310FA2AF26FBC82C1D8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		39E656A1ECECA0E3EB536421F39CDA46 /* JavaScriptMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C44379201415475EF3E05990354C40 /* JavaScriptMethod.swift */; };
+		3DC1B782A057ED09E4D15290EA9EC24D /* LayoutOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CA8E4E83614A4B7020E1B75007C0A5 /* LayoutOptions.swift */; };
 		3E0B73472561DCDB48779EDCFB7F3BCB /* Pods-StockManagerTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82941499BEFEA9479CCDF8435E604441 /* Pods-StockManagerTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		469F2A72FB12A600456B89952873EF8B /* PriceLineApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E87D4E69D13E30F180C77433380178 /* PriceLineApi.swift */; };
-		46D411BD39E4EFDEEBE8AAC603ED3E67 /* PriceLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802090D4DE87072F109E72038712013B /* PriceLine.swift */; };
-		4D443954A9BFA8C8192AFD228F727C8F /* LineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA56D6BFAB8F061486167942ED2CAA0E /* LineData.swift */; };
-		5067DC2138F5A5ADAB50E0A0A5994D0D /* HandleScrollOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61733DF8A67A44FD4B1B1F3208B1FFF0 /* HandleScrollOptions.swift */; };
-		52CB4CBE8EBF179F2E931A6D63B3188C /* PriceLineSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C493C4B0E3DD8A7355A0F962350F02 /* PriceLineSource.swift */; };
-		53446EF2A6835D1FEAB87F72A3D776F1 /* SeriesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53B636A6A2E0E4F11856D13845D60895 /* SeriesApi.swift */; };
-		53D735D9A8E71DCD332A847F8AD10A75 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78FB2E9C67A522D2A9B14AAD46D42BF6 /* Time.swift */; };
-		555252464FDF485C6C4EDFD4CC33ECC6 /* Shizilayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F296694BCED0B193399614B33336A054 /* Shizilayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56B28C0A2777C3E93F955F0E88F778A3 /* Encodable+JSONString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE627D78F5E7A32EF3BC50D4EE66FF2 /* Encodable+JSONString.swift */; };
-		58B77D010FA309630754FF38704059FA /* MouseEventParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4296F0D1148DF8991F2665FDC6368E58 /* MouseEventParams.swift */; };
-		58C362F2FC79C7357005527D6CDC2E58 /* AutoscaleInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F65401B7F0D7E64FEEEADF281DDA23 /* AutoscaleInfoProvider.swift */; };
-		5921FE61FB9A6AADECFEB83B9D7DA6F3 /* SeriesMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0CE9E11753B81C621C708F25010644 /* SeriesMarker.swift */; };
-		596C10EF47D4E1B1297022E27B4F720E /* HandleScaleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02B3DB5D6320AAB021BB5D4637A5AA5 /* HandleScaleOptions.swift */; };
-		5CAD291BFF0D44A253BBD155A79552C7 /* GuPiaoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 52484045BB119613AB77EB495485BBD0 /* GuPiaoView.m */; };
-		61D315C35A5B0175058A42B31F5DE7A7 /* CrosshairOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EB0F6137A596694693F900EE164363E /* CrosshairOptions.swift */; };
-		6417681EB0082B1D733A6F217CF693AE /* SeriesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF831CECC1BF94BF04142366F12762B /* SeriesData.swift */; };
-		6417CAF12105B58AC7E59E327387DF23 /* JavaScriptSyncMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43FFAB5AC141ACE5C04546EBACE6834C /* JavaScriptSyncMethod.swift */; };
-		6440EC86C063EFFBCE29927815F075AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
-		69FD0952C7E661CF297364EDA0E93484 /* HistogramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85FE789E11D6D01A520DB5898B74BCEB /* HistogramData.swift */; };
-		6BB22400CFFFF787E7A77BE2783B8712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
-		746A72EA48E6D0C5F24915813BE3249D /* CandlestickSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4860D112F3A3B8C71FE1E5CC3553A /* CandlestickSeriesOptions.swift */; };
-		747CE566F0E85E4229168A8D7B703A3D /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F82345482FEF3DCC013FBC4F57B62B /* Coordinate.swift */; };
-		75E62E179A9D956D4AF63CBB9B28AFB3 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B7DAF12F56EEA5198B2239D9538E5C /* Point.swift */; };
-		7A2F20598C297325348D93E8F0E08052 /* JavaScriptEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C36C54CDD2291EFB7847B8A6909E04BB /* JavaScriptEvaluator.swift */; };
-		7E6FC97EEE1123ACC07F5A49F0009EF6 /* WatermarkOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEAA443344D7CEF4A8EFB602B2BF1064 /* WatermarkOptions.swift */; };
-		84AA0F8A42A70F50921FE5AA409BBCB4 /* wrapper_functions.js in Resources */ = {isa = PBXBuildFile; fileRef = FC100449B2AC466449898AE4635638A3 /* wrapper_functions.js */; };
-		86081EAAD60814AC8E628483F5AEA49A /* AreaSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E58292255FF6DE23EAD02C6D48F8A /* AreaSeriesOptions.swift */; };
-		87A6A65C0CBDF7A958F60DA45F87BA9A /* SeriesDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12EE2379E0B063E2F15BD7BCE01E80F /* SeriesDataType.swift */; };
-		87ACA1665CC9926EBEB51A9AC6D62C28 /* LineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669AEACCB8AE47296A6D5CCC6CC5238F /* LineStyle.swift */; };
-		89411C11C8EFE07C8BC9FBC0B4CA7C20 /* Pods-StockManager-StockManagerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D2F2BAB39B5A51F61D40C549B40DA0 /* Pods-StockManager-StockManagerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		89D7383E042CFAD6BD0F5007EE273B81 /* LightweightCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE388785B4EC0601FF35853B54142B20 /* LightweightCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BDA59AA9DB09366DB553F82BDA8C9E9 /* PriceScaleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93BDB9AD348AAAF3AA8CEF7706671EEF /* PriceScaleOptions.swift */; };
+		4583A8C61CEAF5D9C48463B45A6DAA10 /* Pods-StockManager-StockManagerUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59D2F2BAB39B5A51F61D40C549B40DA0 /* Pods-StockManager-StockManagerUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		469F2A72FB12A600456B89952873EF8B /* PriceLineApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E179C6CF0B85D96EAAB8FD6F3E8448BF /* PriceLineApi.swift */; };
+		46D411BD39E4EFDEEBE8AAC603ED3E67 /* PriceLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7044714FD6584D8F6418B027E523E3D2 /* PriceLine.swift */; };
+		47CB7ACF1A7F7903F736EFAC3732FEA7 /* Pods-StockManager-StockManagerUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F36ED50B93C5E8E2DF6DA94FA4A72F0 /* Pods-StockManager-StockManagerUITests-dummy.m */; };
+		4C839339C722F94AF6346802450648A3 /* Pods-StockManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2240663890F055E1B1ECE31B40B1580 /* Pods-StockManager-dummy.m */; };
+		4D443954A9BFA8C8192AFD228F727C8F /* LineData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE5F4CC42BE05578260B7F73BBF2B64 /* LineData.swift */; };
+		5067DC2138F5A5ADAB50E0A0A5994D0D /* HandleScrollOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E122FD5A6D74A8347C1D150CC2D8275 /* HandleScrollOptions.swift */; };
+		52CB4CBE8EBF179F2E931A6D63B3188C /* PriceLineSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635BEE8F3C0524C06C43B3B3AAA0B0CB /* PriceLineSource.swift */; };
+		53446EF2A6835D1FEAB87F72A3D776F1 /* SeriesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53BB2205C192604B5C693CA8481F061 /* SeriesApi.swift */; };
+		53D735D9A8E71DCD332A847F8AD10A75 /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = D769343180960AB886621823433295C3 /* Time.swift */; };
+		56B28C0A2777C3E93F955F0E88F778A3 /* Encodable+JSONString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CEEE6D3AF8FA0A41904B2702BB4BA0 /* Encodable+JSONString.swift */; };
+		58B77D010FA309630754FF38704059FA /* MouseEventParams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F86D99D3AAA730F55643FF8973D2F7A /* MouseEventParams.swift */; };
+		58C362F2FC79C7357005527D6CDC2E58 /* AutoscaleInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA8B9290C2CA0D69A3DB81A5124210D /* AutoscaleInfoProvider.swift */; };
+		5921FE61FB9A6AADECFEB83B9D7DA6F3 /* SeriesMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F23BCCDEA71A82D8F265C2049D6596A /* SeriesMarker.swift */; };
+		596C10EF47D4E1B1297022E27B4F720E /* HandleScaleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D5081A7CBC32B442FA3B9A2E272159 /* HandleScaleOptions.swift */; };
+		61D315C35A5B0175058A42B31F5DE7A7 /* CrosshairOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3B143FC7870BA2BDC57FE023930BAE /* CrosshairOptions.swift */; };
+		6417681EB0082B1D733A6F217CF693AE /* SeriesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4D70DAD96FA1731A43FFE9AE6778A0A /* SeriesData.swift */; };
+		6417CAF12105B58AC7E59E327387DF23 /* JavaScriptSyncMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AD47E3A58A77CDF097E85D5CC77B598 /* JavaScriptSyncMethod.swift */; };
+		69FD0952C7E661CF297364EDA0E93484 /* HistogramData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DC2A2BEF41BD3C609A2096F587369C /* HistogramData.swift */; };
+		6A4A7D076751DA5AEED8E5140031EDCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6BB22400CFFFF787E7A77BE2783B8712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		746A72EA48E6D0C5F24915813BE3249D /* CandlestickSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86E5ED85E6634FF6A6ECC5ADC9C9D8A /* CandlestickSeriesOptions.swift */; };
+		747CE566F0E85E4229168A8D7B703A3D /* Coordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EEDC5B2539CB50A607A3270E5D8F11 /* Coordinate.swift */; };
+		75E62E179A9D956D4AF63CBB9B28AFB3 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF52A9A16C5481AAE6567C40794A5A70 /* Point.swift */; };
+		7A2F20598C297325348D93E8F0E08052 /* JavaScriptEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CD6572CBB452F0E822317B0B80621C /* JavaScriptEvaluator.swift */; };
+		7E6FC97EEE1123ACC07F5A49F0009EF6 /* WatermarkOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71CFFBF06533CADF92BBB155C6F4A60 /* WatermarkOptions.swift */; };
+		84AA0F8A42A70F50921FE5AA409BBCB4 /* wrapper_functions.js in Resources */ = {isa = PBXBuildFile; fileRef = 859C882D7AD5C86A00F877CD3226C3DF /* wrapper_functions.js */; };
+		86081EAAD60814AC8E628483F5AEA49A /* AreaSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC639E0F5B97DF3BBC9BE2F8F7062AC /* AreaSeriesOptions.swift */; };
+		87A6A65C0CBDF7A958F60DA45F87BA9A /* SeriesDataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF5CDBE0E6669E5990494EB0A11359F /* SeriesDataType.swift */; };
+		87ACA1665CC9926EBEB51A9AC6D62C28 /* LineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14E088A85AE4188CF9BF9EEFB3E14835 /* LineStyle.swift */; };
+		89D7383E042CFAD6BD0F5007EE273B81 /* LightweightCharts-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D6EB99A973224A53005FD874522428 /* LightweightCharts-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BDA59AA9DB09366DB553F82BDA8C9E9 /* PriceScaleOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86013FD86F30BA55B792824B23A58F0 /* PriceScaleOptions.swift */; };
 		8EC4B27BB5135D8D2A72777055B6A3D9 /* Pods-StockManagerTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A060070D935B7FCEE5377D0623F97C96 /* Pods-StockManagerTests-dummy.m */; };
-		8EE3488F08A527FF0AC4AAB8C1CD0083 /* HistogramSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7ED2F06BF63F0CC98E51AEE57AC18AE /* HistogramSeries.swift */; };
-		90AD7267C1B1ED55D0CD455004362ECF /* JavaScriptMessageProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCE3A435646C1791A9617914D5835B /* JavaScriptMessageProducer.swift */; };
-		93B6F0DD8165600855918074FD5CB8B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */; };
-		944469ADCFB531DEC0FCEBE4848569AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
-		94715AD5430523B5EF2A7F6FB5E1160A /* BarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950A88CE3AE90D25935C75FFC9A6F5B8 /* BarData.swift */; };
-		95C3E6928E28FB789D08E7F849A26C99 /* PriceFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EAEF91547069B4C0F39A6DEE68BA82 /* PriceFormat.swift */; };
-		9C7F2CAFA4085374008A594779F317EF /* String+UniqueString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D736816D020EF760FCF9283FF6952DCF /* String+UniqueString.swift */; };
-		A076C18B5EFB0730A4DDE9C9B19FA2CA /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0CBF6C62C25EBE56513BAAD44601DD /* MessageHandler.swift */; };
-		A118C406423B20D10CA4006DB2CEF0F9 /* ChartColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58CA163C199CBB5CCDD65BB0E3BC2571 /* ChartColor.swift */; };
-		A721F941468703C1037B00F9BF27BFE4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9446F2DB1855914B83829556A82E772 /* WebView.swift */; };
-		A9A0E1403154BB1D1388D0D34973600F /* ChartOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955297C31493D830E5DF1BE41236711D /* ChartOptions.swift */; };
-		AED7D048B60382CC8C9D7DCD7C491444 /* content-setup.js in Resources */ = {isa = PBXBuildFile; fileRef = C7D68F0FFAEFACA0EEDC96A54E859DF6 /* content-setup.js */; };
-		AF05BA785637E23A77E598EF3DCD3DA3 /* LineSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418755D251DC6B56BA6B303639A3BD56 /* LineSeriesOptions.swift */; };
-		AF8EC75B15E799B3724B09285659B5F0 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = B114391256222D7D9B95DE8DA5377D8A /* Subscription.swift */; };
-		B513D5E24042DA0C1120129072F1568C /* TogglableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D9D057D46918CDE7C1ADBBB2009D7 /* TogglableOptions.swift */; };
-		BD0499DC501D5F6CB2C0E477E65AFA64 /* Pods-StockManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761D08F3845A303A31E8F18173CB7256 /* Pods-StockManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD3AD0B0419C4BB57FF1F44F5D2C0A7D /* PHStockChart-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96AD03414DF43C2337A716403766BB84 /* PHStockChart-dummy.m */; };
-		BEDF1B565194542A9B7644D918336827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
-		BF4D9C9F68B6F09D5CBA94A30DA57DFC /* BarSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22926939B711DAF68FE620B23B1B665B /* BarSeriesOptions.swift */; };
-		C14756FE3E1311E7272647BFE4450B84 /* WhitespaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E08AF6FFC4F5BD1E28DB77EAD734E8 /* WhitespaceData.swift */; };
-		C530481123C61E8F9D042279F562BB9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */; };
-		C5E47F853EBDAD0A911444C3655EEACB /* FromToRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0C375511BF19E42250548C8B1D399C /* FromToRange.swift */; };
-		D001A08878614157234A6C5DF9F81004 /* AxisPressedMouseMoveOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63FD5451353124044635F34428C85AE /* AxisPressedMouseMoveOptions.swift */; };
-		D0C41077F41C97E84AD25AC259654B66 /* BusinessDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4583FC5CFE5F356BA713609F0224C9A2 /* BusinessDay.swift */; };
-		D24ED5AC5FB6565E68D9168FF20A5EFA /* PriceLineOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E842FDF0641A3083A56CFA273D7DC008 /* PriceLineOptions.swift */; };
-		D544D5FC8005F0A67D80C8F4064D0F25 /* LocalizationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF32FCA3874B6610784B282C1332B88 /* LocalizationOptions.swift */; };
-		D61DEA8E814C1D7175E28F3B905BF2DE /* AreaSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD640FD0AA47D24826B941F29A743997 /* AreaSeries.swift */; };
-		D9F1D122CAF2EF8F87143589F1ACE8A6 /* HistogramSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF16FCB889C9EC2942BEE745EE6471C5 /* HistogramSeriesOptions.swift */; };
-		DA9E1DFCF3157A1D6978FAF0A831D7F0 /* PriceScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549166A89DA5C91739863579F8D7E450 /* PriceScale.swift */; };
-		DC5B0F76634046B60E3680AD4DE88F75 /* Pods-StockManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2240663890F055E1B1ECE31B40B1580 /* Pods-StockManager-dummy.m */; };
-		DC98B30319018A25F107938247FDA91A /* BarsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3C015779D111466035E8F94A8801B1 /* BarsInfo.swift */; };
-		E15DBCA47BEBE1CA6179A12342C6B8D2 /* LineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200710768C786A7A5A5AE5946F438AFB /* LineType.swift */; };
-		E5C6B3D1C3E914E2684CDA9BAC153C47 /* BarSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798F7060599528489FD37AC4518F4662 /* BarSeries.swift */; };
-		EA8C2CBF0B244A2AF38C72403514685F /* GridOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68EE4249ACB0C37ED07C4434366B4CB5 /* GridOptions.swift */; };
-		EEA140D93E8B73E68CF4092DDB05A4C2 /* BarPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 704F00FAF13414CAE674547BB4D81FB9 /* BarPrice.swift */; };
-		F2F89694716F2D366D6A8AFE6DD7D2FC /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081631A50288D05A5C8F8720622C803A /* PriceFormatter.swift */; };
-		F4A1E624B22EA83660D2D37B266E52FA /* PromptHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8050C7E30E461F8D00150D7830DA4151 /* PromptHandler.swift */; };
-		FFB8114F3A81E70BB55E11F5CF2762E2 /* TimeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1CDD4187C54E0A90BE2D670E5687CF /* TimeScale.swift */; };
+		8EE3488F08A527FF0AC4AAB8C1CD0083 /* HistogramSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDF13DAD9FA68F2BA76611D517173EC /* HistogramSeries.swift */; };
+		90AD7267C1B1ED55D0CD455004362ECF /* JavaScriptMessageProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400BE4C681FFEF85B5563D8DF471ABE /* JavaScriptMessageProducer.swift */; };
+		94715AD5430523B5EF2A7F6FB5E1160A /* BarData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B0A57503A9D569E01E8574B64DD421 /* BarData.swift */; };
+		95C3E6928E28FB789D08E7F849A26C99 /* PriceFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FEC9BA69DF2C2F58CD8F530DFF5E72 /* PriceFormat.swift */; };
+		9C7F2CAFA4085374008A594779F317EF /* String+UniqueString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0A30A4D345894F7F888CA22F16896C /* String+UniqueString.swift */; };
+		A076C18B5EFB0730A4DDE9C9B19FA2CA /* MessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D0425CAD1AD5B0BD3A9AE11328F59E /* MessageHandler.swift */; };
+		A118C406423B20D10CA4006DB2CEF0F9 /* ChartColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F1906EBF970E5550DDAB0ECBB218B25 /* ChartColor.swift */; };
+		A721F941468703C1037B00F9BF27BFE4 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4042D11ED88848614DDB93E3D1AFCA41 /* WebView.swift */; };
+		A9A0E1403154BB1D1388D0D34973600F /* ChartOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76F75E72D4E43CC8A028DFEFBB026175 /* ChartOptions.swift */; };
+		AED7D048B60382CC8C9D7DCD7C491444 /* content-setup.js in Resources */ = {isa = PBXBuildFile; fileRef = D621DED9622C7E56444EBD4E8ECA6B2D /* content-setup.js */; };
+		AF05BA785637E23A77E598EF3DCD3DA3 /* LineSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921ACAA58ED390D3A4FF34CAFD69F654 /* LineSeriesOptions.swift */; };
+		AF8EC75B15E799B3724B09285659B5F0 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167664578A681DDC1EE5A9252CD381D8 /* Subscription.swift */; };
+		B513D5E24042DA0C1120129072F1568C /* TogglableOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A83974859CFE5273B265C227D19F5 /* TogglableOptions.swift */; };
+		BEDF1B565194542A9B7644D918336827 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BF4D9C9F68B6F09D5CBA94A30DA57DFC /* BarSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939DF0EF24E769E43283FD7CC7F1EE5F /* BarSeriesOptions.swift */; };
+		C14756FE3E1311E7272647BFE4450B84 /* WhitespaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372BBE92795A2C382B5CD1EAD12B4D3C /* WhitespaceData.swift */; };
+		C5E47F853EBDAD0A911444C3655EEACB /* FromToRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8E2ABA07A6964E84749325FB554B6A /* FromToRange.swift */; };
+		D001A08878614157234A6C5DF9F81004 /* AxisPressedMouseMoveOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1276F45CE5931A0627F62E4FEA87AD5B /* AxisPressedMouseMoveOptions.swift */; };
+		D0C41077F41C97E84AD25AC259654B66 /* BusinessDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0201B1747604F70DDF0818D86F7DA0 /* BusinessDay.swift */; };
+		D24ED5AC5FB6565E68D9168FF20A5EFA /* PriceLineOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DAB8EE08825BAD33A45FD8756F78EB /* PriceLineOptions.swift */; };
+		D544D5FC8005F0A67D80C8F4064D0F25 /* LocalizationOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136D1D4C7887D21565BAE2B4503A6FA4 /* LocalizationOptions.swift */; };
+		D61DEA8E814C1D7175E28F3B905BF2DE /* AreaSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA3D170FCCE31E882E54102DE7F1EB8F /* AreaSeries.swift */; };
+		D9F1D122CAF2EF8F87143589F1ACE8A6 /* HistogramSeriesOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEB0802B8CFA4B80A58BBC5DA878864 /* HistogramSeriesOptions.swift */; };
+		DA9E1DFCF3157A1D6978FAF0A831D7F0 /* PriceScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33305C250DC65090FEA36015C0B28DD9 /* PriceScale.swift */; };
+		DC98B30319018A25F107938247FDA91A /* BarsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B3495F69AED8AFDC494C826301B6D6 /* BarsInfo.swift */; };
+		E15DBCA47BEBE1CA6179A12342C6B8D2 /* LineType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A2F431879AED11868C037283807B383 /* LineType.swift */; };
+		E5C6B3D1C3E914E2684CDA9BAC153C47 /* BarSeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95748484EDC59EE6785FACBA91DF546 /* BarSeries.swift */; };
+		E689A2C8DD0C1626C433E5BA723EEA50 /* Pods-StockManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 761D08F3845A303A31E8F18173CB7256 /* Pods-StockManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA8C2CBF0B244A2AF38C72403514685F /* GridOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D9219CFFF1AECECD9E39EA11291291 /* GridOptions.swift */; };
+		EEA140D93E8B73E68CF4092DDB05A4C2 /* BarPrice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EFE40FB4DC6EA400DB52EF61CED235 /* BarPrice.swift */; };
+		F2F89694716F2D366D6A8AFE6DD7D2FC /* PriceFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CC849B1D4A20002CE923AAD7AFCBE3 /* PriceFormatter.swift */; };
+		F4A1E624B22EA83660D2D37B266E52FA /* PromptHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F46C805C6D74C4F5F8AF3D35B9E3183 /* PromptHandler.swift */; };
+		FFB8114F3A81E70BB55E11F5CF2762E2 /* TimeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = C011B006766A2BB78D02180AD6F0A02E /* TimeScale.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		136AFCD709E70F9B523B4A42B3233E72 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 19BD96A38610C9F19233E53B4E0B246A;
-			remoteInfo = PHStockChart;
-		};
-		1799CBE596179C44FDB51647935E8138 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 858F3CF738D05E1407F7AF5FFF584A12;
-			remoteInfo = LightweightCharts;
-		};
-		6CD2F69BF917F8114B59155DA1228744 /* PBXContainerItemProxy */ = {
+		0DD986B3377AFFBC96B7D241D15D5A4C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B792968CE2F220A69EAE658D06045F15;
 			remoteInfo = "Pods-StockManager";
 		};
-		85ADB3769F08A2E86DCE5EAFD4A2AC32 /* PBXContainerItemProxy */ = {
+		960EFDDE4CCB08B234270BECEDD5D82A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 19BD96A38610C9F19233E53B4E0B246A;
-			remoteInfo = PHStockChart;
+			remoteGlobalIDString = 858F3CF738D05E1407F7AF5FFF584A12;
+			remoteInfo = LightweightCharts;
 		};
-		C07DBF87D214F1866363E41CB49E0E53 /* PBXContainerItemProxy */ = {
+		E4AED723C0FBD0F6B54DC39C61EB2157 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -145,146 +122,124 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01EAEF91547069B4C0F39A6DEE68BA82 /* PriceFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceFormat.swift; path = LightweightCharts/Classes/LightweightChartsModels/PriceFormat.swift; sourceTree = "<group>"; };
-		021B96C3C0F8AE2041001EE5DA5DFF5F /* LightweightCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LightweightCharts.modulemap; sourceTree = "<group>"; };
+		046DB0D6F5B1D41A3DAFB65493510D19 /* CrosshairLineOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrosshairLineOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/CrosshairLineOptions.swift; sourceTree = "<group>"; };
 		061C81BFA37E76EA789A5EE2254BB27E /* Pods-StockManagerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StockManagerTests.modulemap"; sourceTree = "<group>"; };
 		068EFFFFFDC3BECF8EF5CC0429F4E650 /* Pods-StockManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockManager.debug.xcconfig"; sourceTree = "<group>"; };
 		080395C8D642BBE7A85E1AEDDF0D0211 /* Pods-StockManager-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StockManager-frameworks.sh"; sourceTree = "<group>"; };
-		081631A50288D05A5C8F8720622C803A /* PriceFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceFormatter.swift; path = LightweightCharts/Classes/Implementations/API/PriceFormatter.swift; sourceTree = "<group>"; };
-		0A0CBF6C62C25EBE56513BAAD44601DD /* MessageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageHandler.swift; path = LightweightCharts/Classes/Implementations/Subscription/MessageHandler.swift; sourceTree = "<group>"; };
-		0A89DA9E7095C6973A3B5A16C5E73C05 /* GridLineOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridLineOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/GridLineOptions.swift; sourceTree = "<group>"; };
-		1526DF4DC983F31C399448B18D394A80 /* ShiZilayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ShiZilayer.m; path = PHStockChart/PHStockChart/PHStockChartClasses/ShiZilayer.m; sourceTree = "<group>"; };
+		08BA5C5A7AFE1CFFE32261818D81DF4C /* SeriesObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesObject.swift; path = LightweightCharts/Classes/Implementations/API/Series/SeriesObject.swift; sourceTree = "<group>"; };
+		08D833F445806429C5756377F17850CD /* LightweightCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LightweightCharts.release.xcconfig; sourceTree = "<group>"; };
+		0A2F431879AED11868C037283807B383 /* LineType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineType.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/LineType.swift; sourceTree = "<group>"; };
+		1276F45CE5931A0627F62E4FEA87AD5B /* AxisPressedMouseMoveOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisPressedMouseMoveOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/AxisPressedMouseMoveOptions.swift; sourceTree = "<group>"; };
+		136D1D4C7887D21565BAE2B4503A6FA4 /* LocalizationOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizationOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/LocalizationOptions.swift; sourceTree = "<group>"; };
+		14CC849B1D4A20002CE923AAD7AFCBE3 /* PriceFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceFormatter.swift; path = LightweightCharts/Classes/Implementations/API/PriceFormatter.swift; sourceTree = "<group>"; };
+		14E088A85AE4188CF9BF9EEFB3E14835 /* LineStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineStyle.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/LineStyle.swift; sourceTree = "<group>"; };
 		15B1B6009E10E0F5419AF0F82E1377FB /* Pods-StockManager-StockManagerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StockManager-StockManagerUITests.modulemap"; sourceTree = "<group>"; };
-		18CA8F6348750CE7E4405904CD9E0008 /* LightweightCharts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LightweightCharts.swift; path = LightweightCharts/Classes/Implementations/API/LightweightCharts.swift; sourceTree = "<group>"; };
+		167664578A681DDC1EE5A9252CD381D8 /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = LightweightCharts/Classes/Implementations/Subscription/Subscription.swift; sourceTree = "<group>"; };
 		1922E305C3C654CA65504BF24349F536 /* Pods-StockManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-StockManager.modulemap"; sourceTree = "<group>"; };
-		1A566723EB66270F991D6FC165D239E0 /* PHStockChart-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PHStockChart-Info.plist"; sourceTree = "<group>"; };
-		1C0C375511BF19E42250548C8B1D399C /* FromToRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromToRange.swift; path = LightweightCharts/Classes/LightweightChartsModels/FromToRange.swift; sourceTree = "<group>"; };
-		1FDCE3A435646C1791A9617914D5835B /* JavaScriptMessageProducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptMessageProducer.swift; path = LightweightCharts/Classes/Implementations/JavaScriptMessageProducer.swift; sourceTree = "<group>"; };
-		200710768C786A7A5A5AE5946F438AFB /* LineType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineType.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/LineType.swift; sourceTree = "<group>"; };
 		20A62F38344EE769D9A2D62DC106E86B /* Pods_StockManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StockManager.framework; path = "Pods-StockManager.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		22926939B711DAF68FE620B23B1B665B /* BarSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/BarSeriesOptions.swift; sourceTree = "<group>"; };
-		291A1C03DAD1F219B142293C1C0A22B3 /* SeriesApi+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SeriesApi+Extension.swift"; path = "LightweightCharts/Classes/Implementations/API/Series/SeriesApi+Extension.swift"; sourceTree = "<group>"; };
-		29B8BE118EB0867831A0C54F22AD2777 /* PHStockChart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PHStockChart.release.xcconfig; sourceTree = "<group>"; };
-		2EB0F6137A596694693F900EE164363E /* CrosshairOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrosshairOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/CrosshairOptions.swift; sourceTree = "<group>"; };
-		3224AEB3412E6A6415875880D3ABF247 /* PHStockChart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PHStockChart.debug.xcconfig; sourceTree = "<group>"; };
+		27D9219CFFF1AECECD9E39EA11291291 /* GridOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/GridOptions.swift; sourceTree = "<group>"; };
+		29B3495F69AED8AFDC494C826301B6D6 /* BarsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarsInfo.swift; path = LightweightCharts/Classes/LightweightChartsModels/BarsInfo.swift; sourceTree = "<group>"; };
+		2D0523AB2E8D16861C31D5C5A2587316 /* SeriesOptionsCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesOptionsCommon.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/SeriesOptionsCommon.swift; sourceTree = "<group>"; };
+		2E6E665CB1C3B1D4E618C9BB479DDBA4 /* TimeScaleApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeScaleApi.swift; path = LightweightCharts/Classes/Protocols/TimeScaleApi.swift; sourceTree = "<group>"; };
+		2F23BCCDEA71A82D8F265C2049D6596A /* SeriesMarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesMarker.swift; path = LightweightCharts/Classes/LightweightChartsModels/SeriesMarker/SeriesMarker.swift; sourceTree = "<group>"; };
+		2F845E1626AF01D223DDECFDACDEBD95 /* SeriesApi+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SeriesApi+Extension.swift"; path = "LightweightCharts/Classes/Implementations/API/Series/SeriesApi+Extension.swift"; sourceTree = "<group>"; };
+		3054803E994D24134AA2057C9DB9AD5E /* PriceScaleApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceScaleApi.swift; path = LightweightCharts/Classes/Protocols/PriceScaleApi.swift; sourceTree = "<group>"; };
+		33305C250DC65090FEA36015C0B28DD9 /* PriceScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceScale.swift; path = LightweightCharts/Classes/Implementations/API/PriceScale.swift; sourceTree = "<group>"; };
 		36286BFBDDF37AE16EBB574CF9F1B7A6 /* Pods-StockManager-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StockManager-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3835979BCE7A22F0E4708731DC782CD1 /* PHStockChart-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHStockChart-prefix.pch"; sourceTree = "<group>"; };
-		418755D251DC6B56BA6B303639A3BD56 /* LineSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/LineSeriesOptions.swift; sourceTree = "<group>"; };
-		4296F0D1148DF8991F2665FDC6368E58 /* MouseEventParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MouseEventParams.swift; path = LightweightCharts/Classes/LightweightChartsModels/MouseEventParams.swift; sourceTree = "<group>"; };
-		43FFAB5AC141ACE5C04546EBACE6834C /* JavaScriptSyncMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptSyncMethod.swift; path = LightweightCharts/Classes/Implementations/SyncScriptEvaluating/JavaScriptSyncMethod.swift; sourceTree = "<group>"; };
-		4583FC5CFE5F356BA713609F0224C9A2 /* BusinessDay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BusinessDay.swift; path = LightweightCharts/Classes/LightweightChartsModels/BusinessDay.swift; sourceTree = "<group>"; };
-		48E87D4E69D13E30F180C77433380178 /* PriceLineApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceLineApi.swift; path = LightweightCharts/Classes/Protocols/PriceLineApi.swift; sourceTree = "<group>"; };
-		4B6445BB32B5C369B71343C620AEB3BE /* LineSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/LineSeries.swift; sourceTree = "<group>"; };
-		4D628794FF0FA20C87E1CFFC106D268F /* PHStockChart.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PHStockChart.modulemap; sourceTree = "<group>"; };
-		4FE092C6CF343E6CB39C91A8189DF8B5 /* LightweightCharts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LightweightCharts.release.xcconfig; sourceTree = "<group>"; };
-		52484045BB119613AB77EB495485BBD0 /* GuPiaoView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GuPiaoView.m; path = PHStockChart/PHStockChart/PHStockChartClasses/GuPiaoView.m; sourceTree = "<group>"; };
-		529111C4C8D503797190EBE82C6E4AE1 /* GuPiaoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GuPiaoView.h; path = PHStockChart/PHStockChart/PHStockChartClasses/GuPiaoView.h; sourceTree = "<group>"; };
-		52C493C4B0E3DD8A7355A0F962350F02 /* PriceLineSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceLineSource.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/PriceLineSource.swift; sourceTree = "<group>"; };
-		53B636A6A2E0E4F11856D13845D60895 /* SeriesApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesApi.swift; path = LightweightCharts/Classes/Protocols/SeriesApi.swift; sourceTree = "<group>"; };
-		549166A89DA5C91739863579F8D7E450 /* PriceScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceScale.swift; path = LightweightCharts/Classes/Implementations/API/PriceScale.swift; sourceTree = "<group>"; };
+		372BBE92795A2C382B5CD1EAD12B4D3C /* WhitespaceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhitespaceData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/WhitespaceData.swift; sourceTree = "<group>"; };
+		39629179CC5B780BD5B7B7797F29CFEB /* LineSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/LineSeries.swift; sourceTree = "<group>"; };
+		3AD47E3A58A77CDF097E85D5CC77B598 /* JavaScriptSyncMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptSyncMethod.swift; path = LightweightCharts/Classes/Implementations/SyncScriptEvaluating/JavaScriptSyncMethod.swift; sourceTree = "<group>"; };
+		4042D11ED88848614DDB93E3D1AFCA41 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = LightweightCharts/Classes/Implementations/WebView.swift; sourceTree = "<group>"; };
+		49CEEE6D3AF8FA0A41904B2702BB4BA0 /* Encodable+JSONString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Encodable+JSONString.swift"; path = "LightweightCharts/Classes/Extensions/Encodable+JSONString.swift"; sourceTree = "<group>"; };
+		4AEB0802B8CFA4B80A58BBC5DA878864 /* HistogramSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/HistogramSeriesOptions.swift; sourceTree = "<group>"; };
+		4D60B6FCEC2ED2195A5956FC2A5556BD /* TickMarkFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TickMarkFormatter.swift; path = LightweightCharts/Classes/LightweightChartsModels/TickMarkFormatter.swift; sourceTree = "<group>"; };
+		4E122FD5A6D74A8347C1D150CC2D8275 /* HandleScrollOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandleScrollOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/HandleScrollOptions.swift; sourceTree = "<group>"; };
+		50D6EB99A973224A53005FD874522428 /* LightweightCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LightweightCharts-umbrella.h"; sourceTree = "<group>"; };
+		51FEC9BA69DF2C2F58CD8F530DFF5E72 /* PriceFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceFormat.swift; path = LightweightCharts/Classes/LightweightChartsModels/PriceFormat.swift; sourceTree = "<group>"; };
+		549FF52E259675806DAB185AD31242E8 /* LightweightCharts.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LightweightCharts.modulemap; sourceTree = "<group>"; };
 		563B3AE587E4868022B5618D77753530 /* LightweightCharts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LightweightCharts.framework; path = LightweightCharts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		58CA163C199CBB5CCDD65BB0E3BC2571 /* ChartColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartColor.swift; path = LightweightCharts/Classes/LightweightChartsModels/ChartColor.swift; sourceTree = "<group>"; };
 		59D2F2BAB39B5A51F61D40C549B40DA0 /* Pods-StockManager-StockManagerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StockManager-StockManagerUITests-umbrella.h"; sourceTree = "<group>"; };
-		5AF831CECC1BF94BF04142366F12762B /* SeriesData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/SeriesData.swift; sourceTree = "<group>"; };
-		5B0CE9E11753B81C621C708F25010644 /* SeriesMarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesMarker.swift; path = LightweightCharts/Classes/LightweightChartsModels/SeriesMarker/SeriesMarker.swift; sourceTree = "<group>"; };
-		61733DF8A67A44FD4B1B1F3208B1FFF0 /* HandleScrollOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandleScrollOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/HandleScrollOptions.swift; sourceTree = "<group>"; };
+		61B7B79C91A4AD23BA0887C9B11C9D68 /* LightweightCharts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LightweightCharts.swift; path = LightweightCharts/Classes/Implementations/API/LightweightCharts.swift; sourceTree = "<group>"; };
+		61CA8E4E83614A4B7020E1B75007C0A5 /* LayoutOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/LayoutOptions.swift; sourceTree = "<group>"; };
+		635BEE8F3C0524C06C43B3B3AAA0B0CB /* PriceLineSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceLineSource.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/PriceLineSource.swift; sourceTree = "<group>"; };
+		648E9176E899578A02B0C01F9B59C86F /* TimeScaleOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeScaleOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/TimeScaleOptions.swift; sourceTree = "<group>"; };
 		6667C03D9FDB3F94B7839AAE440E001E /* Pods_StockManagerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StockManagerTests.framework; path = "Pods-StockManagerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		669AEACCB8AE47296A6D5CCC6CC5238F /* LineStyle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineStyle.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/LineStyle.swift; sourceTree = "<group>"; };
-		68EE4249ACB0C37ED07C4434366B4CB5 /* GridOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/GridOptions.swift; sourceTree = "<group>"; };
 		69903F0DCB29D2F124266AA81F43A3AC /* Pods-StockManagerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StockManagerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		704F00FAF13414CAE674547BB4D81FB9 /* BarPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPrice.swift; path = LightweightCharts/Classes/LightweightChartsModels/BarPrice.swift; sourceTree = "<group>"; };
-		71E08AF6FFC4F5BD1E28DB77EAD734E8 /* WhitespaceData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WhitespaceData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/WhitespaceData.swift; sourceTree = "<group>"; };
-		71F82345482FEF3DCC013FBC4F57B62B /* Coordinate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinate.swift; path = LightweightCharts/Classes/LightweightChartsModels/Coordinate.swift; sourceTree = "<group>"; };
+		6E3B143FC7870BA2BDC57FE023930BAE /* CrosshairOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrosshairOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/CrosshairOptions.swift; sourceTree = "<group>"; };
+		6F1906EBF970E5550DDAB0ECBB218B25 /* ChartColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartColor.swift; path = LightweightCharts/Classes/LightweightChartsModels/ChartColor.swift; sourceTree = "<group>"; };
+		7044714FD6584D8F6418B027E523E3D2 /* PriceLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceLine.swift; path = LightweightCharts/Classes/Implementations/API/PriceLine.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75DC2A2BEF41BD3C609A2096F587369C /* HistogramData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/HistogramData.swift; sourceTree = "<group>"; };
+		75EEDC5B2539CB50A607A3270E5D8F11 /* Coordinate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coordinate.swift; path = LightweightCharts/Classes/LightweightChartsModels/Coordinate.swift; sourceTree = "<group>"; };
 		761D08F3845A303A31E8F18173CB7256 /* Pods-StockManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StockManager-umbrella.h"; sourceTree = "<group>"; };
-		76CAF60E48E3AB6C9D17509CAC3702DB /* PHStockChart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PHStockChart.framework; path = PHStockChart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		779C8ED983AC17BDA377F03C1FD54FFE /* LightweightCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LightweightCharts-dummy.m"; sourceTree = "<group>"; };
-		78FB2E9C67A522D2A9B14AAD46D42BF6 /* Time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Time.swift; path = LightweightCharts/Classes/LightweightChartsModels/Time.swift; sourceTree = "<group>"; };
-		798F7060599528489FD37AC4518F4662 /* BarSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/BarSeries.swift; sourceTree = "<group>"; };
+		76F75E72D4E43CC8A028DFEFBB026175 /* ChartOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/ChartOptions.swift; sourceTree = "<group>"; };
+		78B0A57503A9D569E01E8574B64DD421 /* BarData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/BarData.swift; sourceTree = "<group>"; };
 		7A3986AB4EBB2801251C7218A399A6D1 /* Pods-StockManager-StockManagerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockManager-StockManagerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7C750EB26128588DC3A2E4096CC6495D /* Pods-StockManagerTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockManagerTests-Info.plist"; sourceTree = "<group>"; };
-		7CC01A5C7114C70B57B0BE545926C841 /* TimeScaleApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeScaleApi.swift; path = LightweightCharts/Classes/Protocols/TimeScaleApi.swift; sourceTree = "<group>"; };
-		7E3C015779D111466035E8F94A8801B1 /* BarsInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarsInfo.swift; path = LightweightCharts/Classes/LightweightChartsModels/BarsInfo.swift; sourceTree = "<group>"; };
-		7EE627D78F5E7A32EF3BC50D4EE66FF2 /* Encodable+JSONString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Encodable+JSONString.swift"; path = "LightweightCharts/Classes/Extensions/Encodable+JSONString.swift"; sourceTree = "<group>"; };
-		802090D4DE87072F109E72038712013B /* PriceLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceLine.swift; path = LightweightCharts/Classes/Implementations/API/PriceLine.swift; sourceTree = "<group>"; };
-		8050C7E30E461F8D00150D7830DA4151 /* PromptHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromptHandler.swift; path = LightweightCharts/Classes/Implementations/SyncScriptEvaluating/PromptHandler.swift; sourceTree = "<group>"; };
+		7FF5CDBE0E6669E5990494EB0A11359F /* SeriesDataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesDataType.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/SeriesDataType.swift; sourceTree = "<group>"; };
 		81C9D3560D9CF912692F0189C714E52B /* Pods-StockManager-StockManagerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-StockManager-StockManagerUITests-frameworks.sh"; sourceTree = "<group>"; };
-		81F43CF426A7C5D5E79FC8CB38DB0969 /* PriceFormatterApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceFormatterApi.swift; path = LightweightCharts/Classes/Protocols/PriceFormatterApi.swift; sourceTree = "<group>"; };
-		821B689A02AC11D40B11F2C6B0E55094 /* SeriesOptionsCommon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesOptionsCommon.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/SeriesOptionsCommon.swift; sourceTree = "<group>"; };
+		81E4CA060D1262D260B24700604B719E /* GridLineOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GridLineOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/GridLineOptions.swift; sourceTree = "<group>"; };
 		82941499BEFEA9479CCDF8435E604441 /* Pods-StockManagerTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-StockManagerTests-umbrella.h"; sourceTree = "<group>"; };
-		85FE789E11D6D01A520DB5898B74BCEB /* HistogramData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/HistogramData.swift; sourceTree = "<group>"; };
-		8795206C050F8099CF83DCE9F53DD6BE /* CrosshairLineOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CrosshairLineOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/CrosshairLineOptions.swift; sourceTree = "<group>"; };
-		88B7DAF12F56EEA5198B2239D9538E5C /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = LightweightCharts/Classes/LightweightChartsModels/Point.swift; sourceTree = "<group>"; };
-		8C8E58292255FF6DE23EAD02C6D48F8A /* AreaSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AreaSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/AreaSeriesOptions.swift; sourceTree = "<group>"; };
+		8384C7B87645FE62D51D54330F219437 /* JavaScriptObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptObject.swift; path = LightweightCharts/Classes/Implementations/JavaScriptObject.swift; sourceTree = "<group>"; };
+		8400BE4C681FFEF85B5563D8DF471ABE /* JavaScriptMessageProducer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptMessageProducer.swift; path = LightweightCharts/Classes/Implementations/JavaScriptMessageProducer.swift; sourceTree = "<group>"; };
+		859C882D7AD5C86A00F877CD3226C3DF /* wrapper_functions.js */ = {isa = PBXFileReference; includeInIndex = 1; name = wrapper_functions.js; path = LightweightCharts/Assets/wrapper_functions.js; sourceTree = "<group>"; };
+		85D0425CAD1AD5B0BD3A9AE11328F59E /* MessageHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageHandler.swift; path = LightweightCharts/Classes/Implementations/Subscription/MessageHandler.swift; sourceTree = "<group>"; };
+		85D9F2F72CCA1A8B10763BB086C4B7A1 /* LightweightCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LightweightCharts-prefix.pch"; sourceTree = "<group>"; };
 		8F36ED50B93C5E8E2DF6DA94FA4A72F0 /* Pods-StockManager-StockManagerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StockManager-StockManagerUITests-dummy.m"; sourceTree = "<group>"; };
-		93BDB9AD348AAAF3AA8CEF7706671EEF /* PriceScaleOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceScaleOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/PriceScaleOptions.swift; sourceTree = "<group>"; };
-		94F65401B7F0D7E64FEEEADF281DDA23 /* AutoscaleInfoProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoscaleInfoProvider.swift; path = LightweightCharts/Classes/LightweightChartsModels/AutoscaleInfoProvider.swift; sourceTree = "<group>"; };
-		950A88CE3AE90D25935C75FFC9A6F5B8 /* BarData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/BarData.swift; sourceTree = "<group>"; };
-		955297C31493D830E5DF1BE41236711D /* ChartOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/ChartOptions.swift; sourceTree = "<group>"; };
-		96AD03414DF43C2337A716403766BB84 /* PHStockChart-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PHStockChart-dummy.m"; sourceTree = "<group>"; };
+		8F46C805C6D74C4F5F8AF3D35B9E3183 /* PromptHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PromptHandler.swift; path = LightweightCharts/Classes/Implementations/SyncScriptEvaluating/PromptHandler.swift; sourceTree = "<group>"; };
+		8F86D99D3AAA730F55643FF8973D2F7A /* MouseEventParams.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MouseEventParams.swift; path = LightweightCharts/Classes/LightweightChartsModels/MouseEventParams.swift; sourceTree = "<group>"; };
+		8FA8B9290C2CA0D69A3DB81A5124210D /* AutoscaleInfoProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoscaleInfoProvider.swift; path = LightweightCharts/Classes/LightweightChartsModels/AutoscaleInfoProvider.swift; sourceTree = "<group>"; };
+		9139AE67DFD6359AD343278702D56BB4 /* LightweightCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LightweightCharts-Info.plist"; sourceTree = "<group>"; };
+		921ACAA58ED390D3A4FF34CAFD69F654 /* LineSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/LineSeriesOptions.swift; sourceTree = "<group>"; };
+		939DF0EF24E769E43283FD7CC7F1EE5F /* BarSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/BarSeriesOptions.swift; sourceTree = "<group>"; };
+		93FEDE4F1BDF6BBA089FF435A3C6BA92 /* Chart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chart.swift; path = LightweightCharts/Classes/Implementations/API/Chart.swift; sourceTree = "<group>"; };
+		94DAB8EE08825BAD33A45FD8756F78EB /* PriceLineOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceLineOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/PriceLineOptions.swift; sourceTree = "<group>"; };
+		955A83974859CFE5273B265C227D19F5 /* TogglableOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TogglableOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/TogglableOptions.swift; sourceTree = "<group>"; };
+		96D5081A7CBC32B442FA3B9A2E272159 /* HandleScaleOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandleScaleOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/HandleScaleOptions.swift; sourceTree = "<group>"; };
+		9ABB5358E158C0BD83963810C9263215 /* LightweightCharts-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LightweightCharts-dummy.m"; sourceTree = "<group>"; };
+		9B0A30A4D345894F7F888CA22F16896C /* String+UniqueString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+UniqueString.swift"; path = "LightweightCharts/Classes/Extensions/String+UniqueString.swift"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A060070D935B7FCEE5377D0623F97C96 /* Pods-StockManagerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StockManagerTests-dummy.m"; sourceTree = "<group>"; };
-		A9446F2DB1855914B83829556A82E772 /* WebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebView.swift; path = LightweightCharts/Classes/Implementations/WebView.swift; sourceTree = "<group>"; };
-		AB776891C16B03A71B60F9A86930CCDB /* SeriesObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesObject.swift; path = LightweightCharts/Classes/Implementations/API/Series/SeriesObject.swift; sourceTree = "<group>"; };
-		AC2E8789376A07B04F3507EAA3C20C57 /* ChartApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartApi.swift; path = LightweightCharts/Classes/Protocols/ChartApi.swift; sourceTree = "<group>"; };
-		AC58A0BEC596F830D51CB0537C7F19C8 /* Chart.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Chart.swift; path = LightweightCharts/Classes/Implementations/API/Chart.swift; sourceTree = "<group>"; };
-		AD640FD0AA47D24826B941F29A743997 /* AreaSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AreaSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/AreaSeries.swift; sourceTree = "<group>"; };
-		B114391256222D7D9B95DE8DA5377D8A /* Subscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Subscription.swift; path = LightweightCharts/Classes/Implementations/Subscription/Subscription.swift; sourceTree = "<group>"; };
-		B12EE2379E0B063E2F15BD7BCE01E80F /* SeriesDataType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesDataType.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/SeriesDataType.swift; sourceTree = "<group>"; };
+		A71CFFBF06533CADF92BBB155C6F4A60 /* WatermarkOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatermarkOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/WatermarkOptions.swift; sourceTree = "<group>"; };
+		A86013FD86F30BA55B792824B23A58F0 /* PriceScaleOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceScaleOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/PriceScaleOptions.swift; sourceTree = "<group>"; };
+		AA3D170FCCE31E882E54102DE7F1EB8F /* AreaSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AreaSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/AreaSeries.swift; sourceTree = "<group>"; };
+		AC0201B1747604F70DDF0818D86F7DA0 /* BusinessDay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BusinessDay.swift; path = LightweightCharts/Classes/LightweightChartsModels/BusinessDay.swift; sourceTree = "<group>"; };
+		AF52A9A16C5481AAE6567C40794A5A70 /* Point.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Point.swift; path = LightweightCharts/Classes/LightweightChartsModels/Point.swift; sourceTree = "<group>"; };
 		B243234820F19458592700843DC2C42D /* Pods-StockManagerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockManagerTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B63FD5451353124044635F34428C85AE /* AxisPressedMouseMoveOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AxisPressedMouseMoveOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/AxisPressedMouseMoveOptions.swift; sourceTree = "<group>"; };
-		B68ADFCB49BD561F4F30DDA2267B6921 /* CandlestickSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandlestickSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/CandlestickSeries.swift; sourceTree = "<group>"; };
 		B74E8DBB37708EC7FED733021DAE6791 /* Pods-StockManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B7ED2F06BF63F0CC98E51AEE57AC18AE /* HistogramSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/HistogramSeries.swift; sourceTree = "<group>"; };
-		B857AC531C836823D8D33F8A15865A98 /* PHStockChart-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PHStockChart-umbrella.h"; sourceTree = "<group>"; };
+		B86E5ED85E6634FF6A6ECC5ADC9C9D8A /* CandlestickSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandlestickSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/CandlestickSeriesOptions.swift; sourceTree = "<group>"; };
 		B8FBC75AD036AFF8C419FF05A61A1042 /* Pods_StockManager_StockManagerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_StockManager_StockManagerUITests.framework; path = "Pods-StockManager-StockManagerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC1CDD4187C54E0A90BE2D670E5687CF /* TimeScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeScale.swift; path = LightweightCharts/Classes/Implementations/API/TimeScale.swift; sourceTree = "<group>"; };
-		C1FBD03186AA7AEA337D68181476381A /* JavaScriptMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptMethod.swift; path = LightweightCharts/Classes/Implementations/SyncScriptEvaluating/JavaScriptMethod.swift; sourceTree = "<group>"; };
-		C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C36C54CDD2291EFB7847B8A6909E04BB /* JavaScriptEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptEvaluator.swift; path = LightweightCharts/Classes/Implementations/JavaScriptEvaluator.swift; sourceTree = "<group>"; };
+		C011B006766A2BB78D02180AD6F0A02E /* TimeScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeScale.swift; path = LightweightCharts/Classes/Implementations/API/TimeScale.swift; sourceTree = "<group>"; };
+		C2B6131D893B7990DD571B7C5E571EF4 /* ChartApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChartApi.swift; path = LightweightCharts/Classes/Protocols/ChartApi.swift; sourceTree = "<group>"; };
 		C3EFA0DA0CE43093D4CFD12C9F48B364 /* Pods-StockManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockManager.release.xcconfig"; sourceTree = "<group>"; };
-		C7D68F0FFAEFACA0EEDC96A54E859DF6 /* content-setup.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "content-setup.js"; path = "LightweightCharts/Assets/content-setup.js"; sourceTree = "<group>"; };
-		CE388785B4EC0601FF35853B54142B20 /* LightweightCharts-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LightweightCharts-umbrella.h"; sourceTree = "<group>"; };
+		C656E0EFED14505FF1744292D319EF46 /* LineWidth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineWidth.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/LineWidth.swift; sourceTree = "<group>"; };
 		CE482DC65A0A88C3EE241A1FB119B4FA /* Pods-StockManager-StockManagerUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockManager-StockManagerUITests-Info.plist"; sourceTree = "<group>"; };
-		CF16FCB889C9EC2942BEE745EE6471C5 /* HistogramSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/HistogramSeriesOptions.swift; sourceTree = "<group>"; };
+		D01105EEBE391EAAD3F6FB2F03E12D7D /* CandlestickSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandlestickSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/CandlestickSeries.swift; sourceTree = "<group>"; };
 		D1F7669EF1AD848A2682732B9C9A43A7 /* Pods-StockManager-StockManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockManager-StockManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D27FD3D37CFDBBDE4D9E99F3F2E9245B /* Pods-StockManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockManagerTests.release.xcconfig"; sourceTree = "<group>"; };
-		D4AD0278DBF1A105B1BAB896CB447F45 /* LineWidth.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineWidth.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/LineWidth.swift; sourceTree = "<group>"; };
-		D736816D020EF760FCF9283FF6952DCF /* String+UniqueString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+UniqueString.swift"; path = "LightweightCharts/Classes/Extensions/String+UniqueString.swift"; sourceTree = "<group>"; };
+		D53BB2205C192604B5C693CA8481F061 /* SeriesApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesApi.swift; path = LightweightCharts/Classes/Protocols/SeriesApi.swift; sourceTree = "<group>"; };
+		D5EFE40FB4DC6EA400DB52EF61CED235 /* BarPrice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPrice.swift; path = LightweightCharts/Classes/LightweightChartsModels/BarPrice.swift; sourceTree = "<group>"; };
+		D621DED9622C7E56444EBD4E8ECA6B2D /* content-setup.js */ = {isa = PBXFileReference; includeInIndex = 1; name = "content-setup.js"; path = "LightweightCharts/Assets/content-setup.js"; sourceTree = "<group>"; };
+		D769343180960AB886621823433295C3 /* Time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Time.swift; path = LightweightCharts/Classes/LightweightChartsModels/Time.swift; sourceTree = "<group>"; };
 		D9FD33F2C6E9327E4A592701FBF88B59 /* Pods-StockManager-StockManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-StockManager-StockManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DA56D6BFAB8F061486167942ED2CAA0E /* LineData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/LineData.swift; sourceTree = "<group>"; };
-		DCA73D374BD6265DF0CD707E28BCB164 /* LightweightCharts-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LightweightCharts-Info.plist"; sourceTree = "<group>"; };
-		DD13545C9F6047D99C6CC527010AC86E /* LightweightCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LightweightCharts.debug.xcconfig; sourceTree = "<group>"; };
-		DE1CF8DB0E8566722F8628A0D2401E8B /* TickMarkFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TickMarkFormatter.swift; path = LightweightCharts/Classes/LightweightChartsModels/TickMarkFormatter.swift; sourceTree = "<group>"; };
-		DFB3A0D16ADAF7B6D1F77062BC77B32E /* TimeScaleOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeScaleOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/TimeScaleOptions.swift; sourceTree = "<group>"; };
-		E02B3DB5D6320AAB021BB5D4637A5AA5 /* HandleScaleOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandleScaleOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/HandleScaleOptions.swift; sourceTree = "<group>"; };
-		E1C39560F05FF38F8CC9039BE5DCC7A9 /* LightweightCharts-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LightweightCharts-prefix.pch"; sourceTree = "<group>"; };
+		DCC639E0F5B97DF3BBC9BE2F8F7062AC /* AreaSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AreaSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/AreaSeriesOptions.swift; sourceTree = "<group>"; };
+		E179C6CF0B85D96EAAB8FD6F3E8448BF /* PriceLineApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceLineApi.swift; path = LightweightCharts/Classes/Protocols/PriceLineApi.swift; sourceTree = "<group>"; };
+		E1F906201009A7E36466A652E971EAAF /* LightweightCharts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LightweightCharts.debug.xcconfig; sourceTree = "<group>"; };
 		E2240663890F055E1B1ECE31B40B1580 /* Pods-StockManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-StockManager-dummy.m"; sourceTree = "<group>"; };
 		E25B08D7C63FB149344CD3C2AC96E39B /* Pods-StockManager-StockManagerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-StockManager-StockManagerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E4C4860D112F3A3B8C71FE1E5CC3553A /* CandlestickSeriesOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CandlestickSeriesOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/SeriesOptions/Options/CandlestickSeriesOptions.swift; sourceTree = "<group>"; };
+		E287D7F2FF2EB4E17E5F1D940F1DC2FD /* PriceFormatterApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceFormatterApi.swift; path = LightweightCharts/Classes/Protocols/PriceFormatterApi.swift; sourceTree = "<group>"; };
+		E4CD6572CBB452F0E822317B0B80621C /* JavaScriptEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptEvaluator.swift; path = LightweightCharts/Classes/Implementations/JavaScriptEvaluator.swift; sourceTree = "<group>"; };
+		E4D70DAD96FA1731A43FFE9AE6778A0A /* SeriesData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SeriesData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/SeriesData.swift; sourceTree = "<group>"; };
 		E838E5BBD1A748B318B99D2668B474F5 /* Pods-StockManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockManager-Info.plist"; sourceTree = "<group>"; };
-		E842FDF0641A3083A56CFA273D7DC008 /* PriceLineOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceLineOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/Basics/PriceLineOptions.swift; sourceTree = "<group>"; };
-		EB2D9D057D46918CDE7C1ADBBB2009D7 /* TogglableOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TogglableOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/TogglableOptions.swift; sourceTree = "<group>"; };
+		E95748484EDC59EE6785FACBA91DF546 /* BarSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/BarSeries.swift; sourceTree = "<group>"; };
+		EAE5F4CC42BE05578260B7F73BBF2B64 /* LineData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LineData.swift; path = LightweightCharts/Classes/LightweightChartsModels/Data/SeriesData/LineData.swift; sourceTree = "<group>"; };
 		ED4CA21020CFB618FC8FB7AF7F5A3829 /* Pods-StockManager-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-StockManager-acknowledgements.plist"; sourceTree = "<group>"; };
-		EEF32FCA3874B6610784B282C1332B88 /* LocalizationOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizationOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/LocalizationOptions.swift; sourceTree = "<group>"; };
-		F0610D0FF7995A98995BF96854219721 /* JavaScriptObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptObject.swift; path = LightweightCharts/Classes/Implementations/JavaScriptObject.swift; sourceTree = "<group>"; };
-		F136458EF665BC4ABBC7628FA49CA352 /* LayoutOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/LayoutOptions.swift; sourceTree = "<group>"; };
-		F296694BCED0B193399614B33336A054 /* Shizilayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Shizilayer.h; path = PHStockChart/PHStockChart/PHStockChartClasses/Shizilayer.h; sourceTree = "<group>"; };
-		FC100449B2AC466449898AE4635638A3 /* wrapper_functions.js */ = {isa = PBXFileReference; includeInIndex = 1; name = wrapper_functions.js; path = LightweightCharts/Assets/wrapper_functions.js; sourceTree = "<group>"; };
-		FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		FEAA443344D7CEF4A8EFB602B2BF1064 /* WatermarkOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WatermarkOptions.swift; path = LightweightCharts/Classes/LightweightChartsModels/Options/ChartOptions/WatermarkOptions.swift; sourceTree = "<group>"; };
-		FF7582F9D32276095FB9A42139AAA028 /* PriceScaleApi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriceScaleApi.swift; path = LightweightCharts/Classes/Protocols/PriceScaleApi.swift; sourceTree = "<group>"; };
+		EDDF13DAD9FA68F2BA76611D517173EC /* HistogramSeries.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HistogramSeries.swift; path = LightweightCharts/Classes/Implementations/API/Series/HistogramSeries.swift; sourceTree = "<group>"; };
+		EE8E2ABA07A6964E84749325FB554B6A /* FromToRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FromToRange.swift; path = LightweightCharts/Classes/LightweightChartsModels/FromToRange.swift; sourceTree = "<group>"; };
+		F5C44379201415475EF3E05990354C40 /* JavaScriptMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JavaScriptMethod.swift; path = LightweightCharts/Classes/Implementations/SyncScriptEvaluating/JavaScriptMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		05B93D8892F2D316180669C2C3C31DA5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				944469ADCFB531DEC0FCEBE4848569AE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C8E277189D8B4161019A0AB6BCD7508 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,13 +248,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0CE3F98162AA84D3D649B23E8A00F7FF /* Frameworks */ = {
+		1CD2B781DCFC98DD3EC1F54292395E6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6440EC86C063EFFBCE29927815F075AA /* Foundation.framework in Frameworks */,
-				2B51F7BFBAA9CD00B23BC26B4DF7F4D7 /* QuartzCore.framework in Frameworks */,
-				93B6F0DD8165600855918074FD5CB8B8 /* UIKit.framework in Frameworks */,
+				39B8A7E070AD310FA2AF26FBC82C1D8C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A8BC393A7EC36E559A6B7EA35F939D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A4A7D076751DA5AEED8E5140031EDCA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,34 +272,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B01021E682242DCC06D579D42902B34F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C530481123C61E8F9D042279F562BB9E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				84500DE8FA3C1A04FB6C1A7869926382 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		0BC4F9D917EE7079BA336D7814598995 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7DB339A2E76488DC4719D1DA57F8E287 /* LightweightCharts */,
-				AE57B58C3185B8F6B417AFB1211C0C41 /* PHStockChart */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		0C73753D3299AC6C775BCEFAB1D48E56 /* Pods-StockManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -366,16 +302,88 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3550C48C23F01EE8D9DA3A00CCE802C7 /* Products */ = {
+		3B7CC396FF4BA1AD3320666DAAAF8209 /* LightweightCharts */ = {
 			isa = PBXGroup;
 			children = (
-				563B3AE587E4868022B5618D77753530 /* LightweightCharts.framework */,
-				76CAF60E48E3AB6C9D17509CAC3702DB /* PHStockChart.framework */,
-				20A62F38344EE769D9A2D62DC106E86B /* Pods_StockManager.framework */,
-				B8FBC75AD036AFF8C419FF05A61A1042 /* Pods_StockManager_StockManagerUITests.framework */,
-				6667C03D9FDB3F94B7839AAE440E001E /* Pods_StockManagerTests.framework */,
+				AA3D170FCCE31E882E54102DE7F1EB8F /* AreaSeries.swift */,
+				DCC639E0F5B97DF3BBC9BE2F8F7062AC /* AreaSeriesOptions.swift */,
+				8FA8B9290C2CA0D69A3DB81A5124210D /* AutoscaleInfoProvider.swift */,
+				1276F45CE5931A0627F62E4FEA87AD5B /* AxisPressedMouseMoveOptions.swift */,
+				78B0A57503A9D569E01E8574B64DD421 /* BarData.swift */,
+				D5EFE40FB4DC6EA400DB52EF61CED235 /* BarPrice.swift */,
+				E95748484EDC59EE6785FACBA91DF546 /* BarSeries.swift */,
+				939DF0EF24E769E43283FD7CC7F1EE5F /* BarSeriesOptions.swift */,
+				29B3495F69AED8AFDC494C826301B6D6 /* BarsInfo.swift */,
+				AC0201B1747604F70DDF0818D86F7DA0 /* BusinessDay.swift */,
+				D01105EEBE391EAAD3F6FB2F03E12D7D /* CandlestickSeries.swift */,
+				B86E5ED85E6634FF6A6ECC5ADC9C9D8A /* CandlestickSeriesOptions.swift */,
+				93FEDE4F1BDF6BBA089FF435A3C6BA92 /* Chart.swift */,
+				C2B6131D893B7990DD571B7C5E571EF4 /* ChartApi.swift */,
+				6F1906EBF970E5550DDAB0ECBB218B25 /* ChartColor.swift */,
+				76F75E72D4E43CC8A028DFEFBB026175 /* ChartOptions.swift */,
+				75EEDC5B2539CB50A607A3270E5D8F11 /* Coordinate.swift */,
+				046DB0D6F5B1D41A3DAFB65493510D19 /* CrosshairLineOptions.swift */,
+				6E3B143FC7870BA2BDC57FE023930BAE /* CrosshairOptions.swift */,
+				49CEEE6D3AF8FA0A41904B2702BB4BA0 /* Encodable+JSONString.swift */,
+				EE8E2ABA07A6964E84749325FB554B6A /* FromToRange.swift */,
+				81E4CA060D1262D260B24700604B719E /* GridLineOptions.swift */,
+				27D9219CFFF1AECECD9E39EA11291291 /* GridOptions.swift */,
+				96D5081A7CBC32B442FA3B9A2E272159 /* HandleScaleOptions.swift */,
+				4E122FD5A6D74A8347C1D150CC2D8275 /* HandleScrollOptions.swift */,
+				75DC2A2BEF41BD3C609A2096F587369C /* HistogramData.swift */,
+				EDDF13DAD9FA68F2BA76611D517173EC /* HistogramSeries.swift */,
+				4AEB0802B8CFA4B80A58BBC5DA878864 /* HistogramSeriesOptions.swift */,
+				E4CD6572CBB452F0E822317B0B80621C /* JavaScriptEvaluator.swift */,
+				8400BE4C681FFEF85B5563D8DF471ABE /* JavaScriptMessageProducer.swift */,
+				F5C44379201415475EF3E05990354C40 /* JavaScriptMethod.swift */,
+				8384C7B87645FE62D51D54330F219437 /* JavaScriptObject.swift */,
+				3AD47E3A58A77CDF097E85D5CC77B598 /* JavaScriptSyncMethod.swift */,
+				61CA8E4E83614A4B7020E1B75007C0A5 /* LayoutOptions.swift */,
+				61B7B79C91A4AD23BA0887C9B11C9D68 /* LightweightCharts.swift */,
+				EAE5F4CC42BE05578260B7F73BBF2B64 /* LineData.swift */,
+				39629179CC5B780BD5B7B7797F29CFEB /* LineSeries.swift */,
+				921ACAA58ED390D3A4FF34CAFD69F654 /* LineSeriesOptions.swift */,
+				14E088A85AE4188CF9BF9EEFB3E14835 /* LineStyle.swift */,
+				0A2F431879AED11868C037283807B383 /* LineType.swift */,
+				C656E0EFED14505FF1744292D319EF46 /* LineWidth.swift */,
+				136D1D4C7887D21565BAE2B4503A6FA4 /* LocalizationOptions.swift */,
+				85D0425CAD1AD5B0BD3A9AE11328F59E /* MessageHandler.swift */,
+				8F86D99D3AAA730F55643FF8973D2F7A /* MouseEventParams.swift */,
+				AF52A9A16C5481AAE6567C40794A5A70 /* Point.swift */,
+				51FEC9BA69DF2C2F58CD8F530DFF5E72 /* PriceFormat.swift */,
+				14CC849B1D4A20002CE923AAD7AFCBE3 /* PriceFormatter.swift */,
+				E287D7F2FF2EB4E17E5F1D940F1DC2FD /* PriceFormatterApi.swift */,
+				7044714FD6584D8F6418B027E523E3D2 /* PriceLine.swift */,
+				E179C6CF0B85D96EAAB8FD6F3E8448BF /* PriceLineApi.swift */,
+				94DAB8EE08825BAD33A45FD8756F78EB /* PriceLineOptions.swift */,
+				635BEE8F3C0524C06C43B3B3AAA0B0CB /* PriceLineSource.swift */,
+				33305C250DC65090FEA36015C0B28DD9 /* PriceScale.swift */,
+				3054803E994D24134AA2057C9DB9AD5E /* PriceScaleApi.swift */,
+				A86013FD86F30BA55B792824B23A58F0 /* PriceScaleOptions.swift */,
+				8F46C805C6D74C4F5F8AF3D35B9E3183 /* PromptHandler.swift */,
+				D53BB2205C192604B5C693CA8481F061 /* SeriesApi.swift */,
+				2F845E1626AF01D223DDECFDACDEBD95 /* SeriesApi+Extension.swift */,
+				E4D70DAD96FA1731A43FFE9AE6778A0A /* SeriesData.swift */,
+				7FF5CDBE0E6669E5990494EB0A11359F /* SeriesDataType.swift */,
+				2F23BCCDEA71A82D8F265C2049D6596A /* SeriesMarker.swift */,
+				08BA5C5A7AFE1CFFE32261818D81DF4C /* SeriesObject.swift */,
+				2D0523AB2E8D16861C31D5C5A2587316 /* SeriesOptionsCommon.swift */,
+				9B0A30A4D345894F7F888CA22F16896C /* String+UniqueString.swift */,
+				167664578A681DDC1EE5A9252CD381D8 /* Subscription.swift */,
+				4D60B6FCEC2ED2195A5956FC2A5556BD /* TickMarkFormatter.swift */,
+				D769343180960AB886621823433295C3 /* Time.swift */,
+				C011B006766A2BB78D02180AD6F0A02E /* TimeScale.swift */,
+				2E6E665CB1C3B1D4E618C9BB479DDBA4 /* TimeScaleApi.swift */,
+				648E9176E899578A02B0C01F9B59C86F /* TimeScaleOptions.swift */,
+				955A83974859CFE5273B265C227D19F5 /* TogglableOptions.swift */,
+				A71CFFBF06533CADF92BBB155C6F4A60 /* WatermarkOptions.swift */,
+				4042D11ED88848614DDB93E3D1AFCA41 /* WebView.swift */,
+				372BBE92795A2C382B5CD1EAD12B4D3C /* WhitespaceData.swift */,
+				49805769569B261A0EC6FB363768280D /* Resources */,
+				CDE7081DA77B82418C3966B2B5BEFD81 /* Support Files */,
 			);
-			name = Products;
+			name = LightweightCharts;
+			path = LightweightCharts;
 			sourceTree = "<group>";
 		};
 		3D52D54467E249158103D15C8A17447E /* Pods-StockManagerTests */ = {
@@ -394,161 +402,74 @@
 			path = "Target Support Files/Pods-StockManagerTests";
 			sourceTree = "<group>";
 		};
-		7DB339A2E76488DC4719D1DA57F8E287 /* LightweightCharts */ = {
+		45A33764BEA478C85362E7A08CBA810E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD640FD0AA47D24826B941F29A743997 /* AreaSeries.swift */,
-				8C8E58292255FF6DE23EAD02C6D48F8A /* AreaSeriesOptions.swift */,
-				94F65401B7F0D7E64FEEEADF281DDA23 /* AutoscaleInfoProvider.swift */,
-				B63FD5451353124044635F34428C85AE /* AxisPressedMouseMoveOptions.swift */,
-				950A88CE3AE90D25935C75FFC9A6F5B8 /* BarData.swift */,
-				704F00FAF13414CAE674547BB4D81FB9 /* BarPrice.swift */,
-				798F7060599528489FD37AC4518F4662 /* BarSeries.swift */,
-				22926939B711DAF68FE620B23B1B665B /* BarSeriesOptions.swift */,
-				7E3C015779D111466035E8F94A8801B1 /* BarsInfo.swift */,
-				4583FC5CFE5F356BA713609F0224C9A2 /* BusinessDay.swift */,
-				B68ADFCB49BD561F4F30DDA2267B6921 /* CandlestickSeries.swift */,
-				E4C4860D112F3A3B8C71FE1E5CC3553A /* CandlestickSeriesOptions.swift */,
-				AC58A0BEC596F830D51CB0537C7F19C8 /* Chart.swift */,
-				AC2E8789376A07B04F3507EAA3C20C57 /* ChartApi.swift */,
-				58CA163C199CBB5CCDD65BB0E3BC2571 /* ChartColor.swift */,
-				955297C31493D830E5DF1BE41236711D /* ChartOptions.swift */,
-				71F82345482FEF3DCC013FBC4F57B62B /* Coordinate.swift */,
-				8795206C050F8099CF83DCE9F53DD6BE /* CrosshairLineOptions.swift */,
-				2EB0F6137A596694693F900EE164363E /* CrosshairOptions.swift */,
-				7EE627D78F5E7A32EF3BC50D4EE66FF2 /* Encodable+JSONString.swift */,
-				1C0C375511BF19E42250548C8B1D399C /* FromToRange.swift */,
-				0A89DA9E7095C6973A3B5A16C5E73C05 /* GridLineOptions.swift */,
-				68EE4249ACB0C37ED07C4434366B4CB5 /* GridOptions.swift */,
-				E02B3DB5D6320AAB021BB5D4637A5AA5 /* HandleScaleOptions.swift */,
-				61733DF8A67A44FD4B1B1F3208B1FFF0 /* HandleScrollOptions.swift */,
-				85FE789E11D6D01A520DB5898B74BCEB /* HistogramData.swift */,
-				B7ED2F06BF63F0CC98E51AEE57AC18AE /* HistogramSeries.swift */,
-				CF16FCB889C9EC2942BEE745EE6471C5 /* HistogramSeriesOptions.swift */,
-				C36C54CDD2291EFB7847B8A6909E04BB /* JavaScriptEvaluator.swift */,
-				1FDCE3A435646C1791A9617914D5835B /* JavaScriptMessageProducer.swift */,
-				C1FBD03186AA7AEA337D68181476381A /* JavaScriptMethod.swift */,
-				F0610D0FF7995A98995BF96854219721 /* JavaScriptObject.swift */,
-				43FFAB5AC141ACE5C04546EBACE6834C /* JavaScriptSyncMethod.swift */,
-				F136458EF665BC4ABBC7628FA49CA352 /* LayoutOptions.swift */,
-				18CA8F6348750CE7E4405904CD9E0008 /* LightweightCharts.swift */,
-				DA56D6BFAB8F061486167942ED2CAA0E /* LineData.swift */,
-				4B6445BB32B5C369B71343C620AEB3BE /* LineSeries.swift */,
-				418755D251DC6B56BA6B303639A3BD56 /* LineSeriesOptions.swift */,
-				669AEACCB8AE47296A6D5CCC6CC5238F /* LineStyle.swift */,
-				200710768C786A7A5A5AE5946F438AFB /* LineType.swift */,
-				D4AD0278DBF1A105B1BAB896CB447F45 /* LineWidth.swift */,
-				EEF32FCA3874B6610784B282C1332B88 /* LocalizationOptions.swift */,
-				0A0CBF6C62C25EBE56513BAAD44601DD /* MessageHandler.swift */,
-				4296F0D1148DF8991F2665FDC6368E58 /* MouseEventParams.swift */,
-				88B7DAF12F56EEA5198B2239D9538E5C /* Point.swift */,
-				01EAEF91547069B4C0F39A6DEE68BA82 /* PriceFormat.swift */,
-				081631A50288D05A5C8F8720622C803A /* PriceFormatter.swift */,
-				81F43CF426A7C5D5E79FC8CB38DB0969 /* PriceFormatterApi.swift */,
-				802090D4DE87072F109E72038712013B /* PriceLine.swift */,
-				48E87D4E69D13E30F180C77433380178 /* PriceLineApi.swift */,
-				E842FDF0641A3083A56CFA273D7DC008 /* PriceLineOptions.swift */,
-				52C493C4B0E3DD8A7355A0F962350F02 /* PriceLineSource.swift */,
-				549166A89DA5C91739863579F8D7E450 /* PriceScale.swift */,
-				FF7582F9D32276095FB9A42139AAA028 /* PriceScaleApi.swift */,
-				93BDB9AD348AAAF3AA8CEF7706671EEF /* PriceScaleOptions.swift */,
-				8050C7E30E461F8D00150D7830DA4151 /* PromptHandler.swift */,
-				53B636A6A2E0E4F11856D13845D60895 /* SeriesApi.swift */,
-				291A1C03DAD1F219B142293C1C0A22B3 /* SeriesApi+Extension.swift */,
-				5AF831CECC1BF94BF04142366F12762B /* SeriesData.swift */,
-				B12EE2379E0B063E2F15BD7BCE01E80F /* SeriesDataType.swift */,
-				5B0CE9E11753B81C621C708F25010644 /* SeriesMarker.swift */,
-				AB776891C16B03A71B60F9A86930CCDB /* SeriesObject.swift */,
-				821B689A02AC11D40B11F2C6B0E55094 /* SeriesOptionsCommon.swift */,
-				D736816D020EF760FCF9283FF6952DCF /* String+UniqueString.swift */,
-				B114391256222D7D9B95DE8DA5377D8A /* Subscription.swift */,
-				DE1CF8DB0E8566722F8628A0D2401E8B /* TickMarkFormatter.swift */,
-				78FB2E9C67A522D2A9B14AAD46D42BF6 /* Time.swift */,
-				BC1CDD4187C54E0A90BE2D670E5687CF /* TimeScale.swift */,
-				7CC01A5C7114C70B57B0BE545926C841 /* TimeScaleApi.swift */,
-				DFB3A0D16ADAF7B6D1F77062BC77B32E /* TimeScaleOptions.swift */,
-				EB2D9D057D46918CDE7C1ADBBB2009D7 /* TogglableOptions.swift */,
-				FEAA443344D7CEF4A8EFB602B2BF1064 /* WatermarkOptions.swift */,
-				A9446F2DB1855914B83829556A82E772 /* WebView.swift */,
-				71E08AF6FFC4F5BD1E28DB77EAD734E8 /* WhitespaceData.swift */,
-				8C2EEC87DB29930EE65F9534F11C79CC /* Resources */,
-				A337BDCB8914A98630FD67313FF9FD3A /* Support Files */,
+				3B7CC396FF4BA1AD3320666DAAAF8209 /* LightweightCharts */,
 			);
-			name = LightweightCharts;
-			path = LightweightCharts;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		84500DE8FA3C1A04FB6C1A7869926382 /* iOS */ = {
+		49805769569B261A0EC6FB363768280D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FDD2AF2EE71C229BC9C64692BE5DE6C2 /* Foundation.framework */,
-				FE7F427CA20FCF5EB55A191443C28288 /* QuartzCore.framework */,
-				C27FDEB1FE0D148C2525409AF55CD9DD /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		8C2EEC87DB29930EE65F9534F11C79CC /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C7D68F0FFAEFACA0EEDC96A54E859DF6 /* content-setup.js */,
-				FC100449B2AC466449898AE4635638A3 /* wrapper_functions.js */,
+				D621DED9622C7E56444EBD4E8ECA6B2D /* content-setup.js */,
+				859C882D7AD5C86A00F877CD3226C3DF /* wrapper_functions.js */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		A337BDCB8914A98630FD67313FF9FD3A /* Support Files */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				021B96C3C0F8AE2041001EE5DA5DFF5F /* LightweightCharts.modulemap */,
-				779C8ED983AC17BDA377F03C1FD54FFE /* LightweightCharts-dummy.m */,
-				DCA73D374BD6265DF0CD707E28BCB164 /* LightweightCharts-Info.plist */,
-				E1C39560F05FF38F8CC9039BE5DCC7A9 /* LightweightCharts-prefix.pch */,
-				CE388785B4EC0601FF35853B54142B20 /* LightweightCharts-umbrella.h */,
-				DD13545C9F6047D99C6CC527010AC86E /* LightweightCharts.debug.xcconfig */,
-				4FE092C6CF343E6CB39C91A8189DF8B5 /* LightweightCharts.release.xcconfig */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B09B7CADADBE582E3797D1FB319BE73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				563B3AE587E4868022B5618D77753530 /* LightweightCharts.framework */,
+				20A62F38344EE769D9A2D62DC106E86B /* Pods_StockManager.framework */,
+				B8FBC75AD036AFF8C419FF05A61A1042 /* Pods_StockManager_StockManagerUITests.framework */,
+				6667C03D9FDB3F94B7839AAE440E001E /* Pods_StockManagerTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE7081DA77B82418C3966B2B5BEFD81 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				549FF52E259675806DAB185AD31242E8 /* LightweightCharts.modulemap */,
+				9ABB5358E158C0BD83963810C9263215 /* LightweightCharts-dummy.m */,
+				9139AE67DFD6359AD343278702D56BB4 /* LightweightCharts-Info.plist */,
+				85D9F2F72CCA1A8B10763BB086C4B7A1 /* LightweightCharts-prefix.pch */,
+				50D6EB99A973224A53005FD874522428 /* LightweightCharts-umbrella.h */,
+				E1F906201009A7E36466A652E971EAAF /* LightweightCharts.debug.xcconfig */,
+				08D833F445806429C5756377F17850CD /* LightweightCharts.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/LightweightCharts";
-			sourceTree = "<group>";
-		};
-		AE57B58C3185B8F6B417AFB1211C0C41 /* PHStockChart */ = {
-			isa = PBXGroup;
-			children = (
-				529111C4C8D503797190EBE82C6E4AE1 /* GuPiaoView.h */,
-				52484045BB119613AB77EB495485BBD0 /* GuPiaoView.m */,
-				F296694BCED0B193399614B33336A054 /* Shizilayer.h */,
-				1526DF4DC983F31C399448B18D394A80 /* ShiZilayer.m */,
-				C7FD3F671EB9E8555ED781BFBFB50D51 /* Support Files */,
-			);
-			name = PHStockChart;
-			path = PHStockChart;
-			sourceTree = "<group>";
-		};
-		C7FD3F671EB9E8555ED781BFBFB50D51 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4D628794FF0FA20C87E1CFFC106D268F /* PHStockChart.modulemap */,
-				96AD03414DF43C2337A716403766BB84 /* PHStockChart-dummy.m */,
-				1A566723EB66270F991D6FC165D239E0 /* PHStockChart-Info.plist */,
-				3835979BCE7A22F0E4708731DC782CD1 /* PHStockChart-prefix.pch */,
-				B857AC531C836823D8D33F8A15865A98 /* PHStockChart-umbrella.h */,
-				3224AEB3412E6A6415875880D3ABF247 /* PHStockChart.debug.xcconfig */,
-				29B8BE118EB0867831A0C54F22AD2777 /* PHStockChart.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/PHStockChart";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
-				0BC4F9D917EE7079BA336D7814598995 /* Pods */,
-				3550C48C23F01EE8D9DA3A00CCE802C7 /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				45A33764BEA478C85362E7A08CBA810E /* Pods */,
+				B09B7CADADBE582E3797D1FB319BE73B /* Products */,
 				19EB1F5259FF33691A848431C478E172 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EAA66A6310A3333ACFAE41FCD74F4950 /* Pods-StockManager-StockManagerUITests */ = {
@@ -571,11 +492,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0A5527736A492963ADC7F3B9FB81BD98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E689A2C8DD0C1626C433E5BA723EEA50 /* Pods-StockManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3BA32B04AD0947E32D318EBDE825AB00 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3E0B73472561DCDB48779EDCFB7F3BCB /* Pods-StockManagerTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCFD901E5D8FA74A6C41993F4118DD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4583A8C61CEAF5D9C48463B45A6DAA10 /* Pods-StockManager-StockManagerUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -587,67 +524,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7E0CB5E9F9BC3E2D792C76A696114DEB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				89411C11C8EFE07C8BC9FBC0B4CA7C20 /* Pods-StockManager-StockManagerUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8D18C24DDCD0D3C789A7A3756B33CE97 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0234FEB3A5DBAFC5792208D64D2CBEEB /* GuPiaoView.h in Headers */,
-				2E95C36750C43F53D54AD36D7EE051F6 /* PHStockChart-umbrella.h in Headers */,
-				555252464FDF485C6C4EDFD4CC33ECC6 /* Shizilayer.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A95F98A1DD28F7E78619DF14138A3808 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BD0499DC501D5F6CB2C0E477E65AFA64 /* Pods-StockManager-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		19BD96A38610C9F19233E53B4E0B246A /* PHStockChart */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 693625A00957E879D010CBEF0D01E0E7 /* Build configuration list for PBXNativeTarget "PHStockChart" */;
-			buildPhases = (
-				8D18C24DDCD0D3C789A7A3756B33CE97 /* Headers */,
-				75A797B0E38B51B5BE206C2426945296 /* Sources */,
-				0CE3F98162AA84D3D649B23E8A00F7FF /* Frameworks */,
-				3D698D4EB9FCC5953B0B09CE0AE318E3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = PHStockChart;
-			productName = PHStockChart;
-			productReference = 76CAF60E48E3AB6C9D17509CAC3702DB /* PHStockChart.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		6260D4F57017435FD624BAEA0150BA84 /* Pods-StockManager-StockManagerUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D83EDFA250DABBB36595028583E24B81 /* Build configuration list for PBXNativeTarget "Pods-StockManager-StockManagerUITests" */;
+			buildConfigurationList = 851A9E136354E03E0E294431BD45B7D1 /* Build configuration list for PBXNativeTarget "Pods-StockManager-StockManagerUITests" */;
 			buildPhases = (
-				7E0CB5E9F9BC3E2D792C76A696114DEB /* Headers */,
-				48840CF8EFA8EDB7DFE261E9C65E812E /* Sources */,
-				B01021E682242DCC06D579D42902B34F /* Frameworks */,
-				05F9462CA9A25CFEC955BDEE681A4F05 /* Resources */,
+				5CCFD901E5D8FA74A6C41993F4118DD5 /* Headers */,
+				33BB1CA23CC5F097A96B1F99BC0560EB /* Sources */,
+				1CD2B781DCFC98DD3EC1F54292395E6B /* Frameworks */,
+				BFCF0A5C5C384C30416463BF209AEED2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0FFAD75B6D9D57451CF33EDCCC68D6BC /* PBXTargetDependency */,
-				3E8BC79DFC107A9F90FA057BEBCF58D6 /* PBXTargetDependency */,
+				C98A19FC4DC4688EBC5C042ED459C2EB /* PBXTargetDependency */,
 			);
 			name = "Pods-StockManager-StockManagerUITests";
 			productName = "Pods-StockManager-StockManagerUITests";
@@ -675,18 +567,17 @@
 		};
 		B792968CE2F220A69EAE658D06045F15 /* Pods-StockManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1FB8B057940B0F74F9942196BCBE524F /* Build configuration list for PBXNativeTarget "Pods-StockManager" */;
+			buildConfigurationList = 027F278ED94E6751B3F6BE86C6FE9593 /* Build configuration list for PBXNativeTarget "Pods-StockManager" */;
 			buildPhases = (
-				A95F98A1DD28F7E78619DF14138A3808 /* Headers */,
-				553BE8DC5169707FB07DBA991CEC149C /* Sources */,
-				05B93D8892F2D316180669C2C3C31DA5 /* Frameworks */,
-				1C2FCF4F3C3180E29F84D250D38AFE19 /* Resources */,
+				0A5527736A492963ADC7F3B9FB81BD98 /* Headers */,
+				19C3BE3CF281C4B058F8116AD6811149 /* Sources */,
+				3A8BC393A7EC36E559A6B7EA35F939D6 /* Frameworks */,
+				84FAF79998A513497472635BF94E9832 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87F08F5044A911E352D248B9DC7BF0D2 /* PBXTargetDependency */,
-				5DAB01DA77D74298A06BBCA67B05AD3B /* PBXTargetDependency */,
+				075360A3F3769C3C4DAE1538229F8950 /* PBXTargetDependency */,
 			);
 			name = "Pods-StockManager";
 			productName = "Pods-StockManager";
@@ -705,7 +596,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				C84762868622844B97EB483AE77ECAC6 /* PBXTargetDependency */,
+				CAA1C9D233A8BC24B3CA0DAA61897708 /* PBXTargetDependency */,
 			);
 			name = "Pods-StockManagerTests";
 			productName = "Pods-StockManagerTests";
@@ -722,7 +613,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -730,12 +621,11 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3550C48C23F01EE8D9DA3A00CCE802C7 /* Products */;
+			productRefGroup = B09B7CADADBE582E3797D1FB319BE73B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				858F3CF738D05E1407F7AF5FFF584A12 /* LightweightCharts */,
-				19BD96A38610C9F19233E53B4E0B246A /* PHStockChart */,
 				B792968CE2F220A69EAE658D06045F15 /* Pods-StockManager */,
 				6260D4F57017435FD624BAEA0150BA84 /* Pods-StockManager-StockManagerUITests */,
 				DDF238950E962FB8247DF496B29FC030 /* Pods-StockManagerTests */,
@@ -744,21 +634,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		05F9462CA9A25CFEC955BDEE681A4F05 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0AE938479DE80D98D7BD2BC87E1D6389 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1C2FCF4F3C3180E29F84D250D38AFE19 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -774,7 +650,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D698D4EB9FCC5953B0B09CE0AE318E3 /* Resources */ = {
+		84FAF79998A513497472635BF94E9832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCF0A5C5C384C30416463BF209AEED2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -797,29 +680,19 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		48840CF8EFA8EDB7DFE261E9C65E812E /* Sources */ = {
+		19C3BE3CF281C4B058F8116AD6811149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26C4DC7C1D603F6A712AF76E9758E974 /* Pods-StockManager-StockManagerUITests-dummy.m in Sources */,
+				4C839339C722F94AF6346802450648A3 /* Pods-StockManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		553BE8DC5169707FB07DBA991CEC149C /* Sources */ = {
+		33BB1CA23CC5F097A96B1F99BC0560EB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC5B0F76634046B60E3680AD4DE88F75 /* Pods-StockManager-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		75A797B0E38B51B5BE206C2426945296 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5CAD291BFF0D44A253BBD155A79552C7 /* GuPiaoView.m in Sources */,
-				BD3AD0B0419C4BB57FF1F44F5D2C0A7D /* PHStockChart-dummy.m in Sources */,
-				301263E5939752C4415549A91216F84D /* ShiZilayer.m in Sources */,
+				47CB7ACF1A7F7903F736EFAC3732FEA7 /* Pods-StockManager-StockManagerUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -916,76 +789,27 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0FFAD75B6D9D57451CF33EDCCC68D6BC /* PBXTargetDependency */ = {
+		075360A3F3769C3C4DAE1538229F8950 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LightweightCharts;
 			target = 858F3CF738D05E1407F7AF5FFF584A12 /* LightweightCharts */;
-			targetProxy = 1799CBE596179C44FDB51647935E8138 /* PBXContainerItemProxy */;
+			targetProxy = E4AED723C0FBD0F6B54DC39C61EB2157 /* PBXContainerItemProxy */;
 		};
-		3E8BC79DFC107A9F90FA057BEBCF58D6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PHStockChart;
-			target = 19BD96A38610C9F19233E53B4E0B246A /* PHStockChart */;
-			targetProxy = 85ADB3769F08A2E86DCE5EAFD4A2AC32 /* PBXContainerItemProxy */;
-		};
-		5DAB01DA77D74298A06BBCA67B05AD3B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = PHStockChart;
-			target = 19BD96A38610C9F19233E53B4E0B246A /* PHStockChart */;
-			targetProxy = 136AFCD709E70F9B523B4A42B3233E72 /* PBXContainerItemProxy */;
-		};
-		87F08F5044A911E352D248B9DC7BF0D2 /* PBXTargetDependency */ = {
+		C98A19FC4DC4688EBC5C042ED459C2EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LightweightCharts;
 			target = 858F3CF738D05E1407F7AF5FFF584A12 /* LightweightCharts */;
-			targetProxy = C07DBF87D214F1866363E41CB49E0E53 /* PBXContainerItemProxy */;
+			targetProxy = 960EFDDE4CCB08B234270BECEDD5D82A /* PBXContainerItemProxy */;
 		};
-		C84762868622844B97EB483AE77ECAC6 /* PBXTargetDependency */ = {
+		CAA1C9D233A8BC24B3CA0DAA61897708 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-StockManager";
 			target = B792968CE2F220A69EAE658D06045F15 /* Pods-StockManager */;
-			targetProxy = 6CD2F69BF917F8114B59155DA1228744 /* PBXContainerItemProxy */;
+			targetProxy = 0DD986B3377AFFBC96B7D241D15D5A4C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DAF5BE855AC8B4522AE7AB14F6F9DFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 068EFFFFFDC3BECF8EF5CC0429F4E650 /* Pods-StockManager.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StockManager/Pods-StockManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StockManager/Pods-StockManager.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1012DFF2F53A2F32E35C7FBB38A675A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D27FD3D37CFDBBDE4D9E99F3F2E9245B /* Pods-StockManagerTests.release.xcconfig */;
@@ -1127,82 +951,6 @@
 			};
 			name = Debug;
 		};
-		2CDBFB0654C883BE561BA25CA3ECCB5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C3EFA0DA0CE43093D4CFD12C9F48B364 /* Pods-StockManager.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StockManager/Pods-StockManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StockManager/Pods-StockManager.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		32837DC78DBA9D79C40EFC232781E725 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1F7669EF1AD848A2682732B9C9A43A7 /* Pods-StockManager-StockManagerUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-StockManager-StockManagerUITests/Pods-StockManager-StockManagerUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-StockManager-StockManagerUITests/Pods-StockManager-StockManagerUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		353D2EB3545D27343B51B709D9C0420B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1265,7 +1013,191 @@
 			};
 			name = Release;
 		};
-		4AA8B72289F388461742DDDDE053DDAB /* Debug */ = {
+		3ED256782F913A19B8E286B8785B8DC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068EFFFFFDC3BECF8EF5CC0429F4E650 /* Pods-StockManager.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StockManager/Pods-StockManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockManager/Pods-StockManager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5769A9EF9665DE4E019E5C602179B9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3EFA0DA0CE43093D4CFD12C9F48B364 /* Pods-StockManager.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StockManager/Pods-StockManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockManager/Pods-StockManager.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F55BB0D6E6B95923385F83A189AB926 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1F906201009A7E36466A652E971EAAF /* LightweightCharts.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LightweightCharts/LightweightCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LightweightCharts/LightweightCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LightweightCharts/LightweightCharts.modulemap";
+				PRODUCT_MODULE_NAME = LightweightCharts;
+				PRODUCT_NAME = LightweightCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6474DE01E34CD407ACF3F7BB8882A9A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D833F445806429C5756377F17850CD /* LightweightCharts.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LightweightCharts/LightweightCharts-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LightweightCharts/LightweightCharts-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LightweightCharts/LightweightCharts.modulemap";
+				PRODUCT_MODULE_NAME = LightweightCharts;
+				PRODUCT_NAME = LightweightCharts;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A89CC811FE80967C34BDD3A5E62DC6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F7669EF1AD848A2682732B9C9A43A7 /* Pods-StockManager-StockManagerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-StockManager-StockManagerUITests/Pods-StockManager-StockManagerUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-StockManager-StockManagerUITests/Pods-StockManager-StockManagerUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5501012C9108F7C3D8C9575BF5C0851 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9FD33F2C6E9327E4A592701FBF88B59 /* Pods-StockManager-StockManagerUITests.debug.xcconfig */;
 			buildSettings = {
@@ -1302,146 +1234,6 @@
 			};
 			name = Debug;
 		};
-		5F55BB0D6E6B95923385F83A189AB926 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD13545C9F6047D99C6CC527010AC86E /* LightweightCharts.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LightweightCharts/LightweightCharts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LightweightCharts/LightweightCharts-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LightweightCharts/LightweightCharts.modulemap";
-				PRODUCT_MODULE_NAME = LightweightCharts;
-				PRODUCT_NAME = LightweightCharts;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6474DE01E34CD407ACF3F7BB8882A9A1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FE092C6CF343E6CB39C91A8189DF8B5 /* LightweightCharts.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LightweightCharts/LightweightCharts-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LightweightCharts/LightweightCharts-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/LightweightCharts/LightweightCharts.modulemap";
-				PRODUCT_MODULE_NAME = LightweightCharts;
-				PRODUCT_NAME = LightweightCharts;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9D199AFE596C093874FEBF58074B7734 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3224AEB3412E6A6415875880D3ABF247 /* PHStockChart.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PHStockChart/PHStockChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PHStockChart/PHStockChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PHStockChart/PHStockChart.modulemap";
-				PRODUCT_MODULE_NAME = PHStockChart;
-				PRODUCT_NAME = PHStockChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D940696826CD43BB5313B17E21BADC19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29B8BE118EB0867831A0C54F22AD2777 /* PHStockChart.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PHStockChart/PHStockChart-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PHStockChart/PHStockChart-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PHStockChart/PHStockChart.modulemap";
-				PRODUCT_MODULE_NAME = PHStockChart;
-				PRODUCT_NAME = PHStockChart;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1454,11 +1246,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1FB8B057940B0F74F9942196BCBE524F /* Build configuration list for PBXNativeTarget "Pods-StockManager" */ = {
+		027F278ED94E6751B3F6BE86C6FE9593 /* Build configuration list for PBXNativeTarget "Pods-StockManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0DAF5BE855AC8B4522AE7AB14F6F9DFD /* Debug */,
-				2CDBFB0654C883BE561BA25CA3ECCB5A /* Release */,
+				3ED256782F913A19B8E286B8785B8DC2 /* Debug */,
+				5769A9EF9665DE4E019E5C602179B9D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1481,20 +1273,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		693625A00957E879D010CBEF0D01E0E7 /* Build configuration list for PBXNativeTarget "PHStockChart" */ = {
+		851A9E136354E03E0E294431BD45B7D1 /* Build configuration list for PBXNativeTarget "Pods-StockManager-StockManagerUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9D199AFE596C093874FEBF58074B7734 /* Debug */,
-				D940696826CD43BB5313B17E21BADC19 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D83EDFA250DABBB36595028583E24B81 /* Build configuration list for PBXNativeTarget "Pods-StockManager-StockManagerUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4AA8B72289F388461742DDDDE053DDAB /* Debug */,
-				32837DC78DBA9D79C40EFC232781E725 /* Release */,
+				E5501012C9108F7C3D8C9575BF5C0851 /* Debug */,
+				9A89CC811FE80967C34BDD3A5E62DC6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

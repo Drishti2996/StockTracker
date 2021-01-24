@@ -10,22 +10,31 @@
 		079CB49F4F5DAF3CF794B2AD /* Pods_StockManagerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4892D0EC0FDB5A6DE3B922BB /* Pods_StockManagerTests.framework */; };
 		4913DBE9D75AB0AC14382FD0 /* Pods_StockManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B7E9B45B77187AF7F57F240 /* Pods_StockManager.framework */; };
 		90DA6F67756FEC98E8E47C0B /* Pods_StockManager_StockManagerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030CB8740E98EE80FAA45CF2 /* Pods_StockManager_StockManagerUITests.framework */; };
+		F5B3081725BD696C009348DB /* WatchListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3081625BD696C009348DB /* WatchListConfigurator.swift */; };
+		F5B3081925BD69F2009348DB /* WatchListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3081825BD69F2009348DB /* WatchListPresenter.swift */; };
+		F5B3081B25BD6A04009348DB /* WatchListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3081A25BD6A04009348DB /* WatchListInteractor.swift */; };
+		F5B3081D25BD6A14009348DB /* WatchListInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3081C25BD6A14009348DB /* WatchListInterface.swift */; };
+		F5B3081F25BD6A2C009348DB /* WatchListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3081E25BD6A2C009348DB /* WatchListRouter.swift */; };
+		F5B3082125BD6A3D009348DB /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3082025BD6A3D009348DB /* WatchListViewController.swift */; };
+		F5B3082525BD893E009348DB /* DateUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3082425BD893E009348DB /* DateUtility.swift */; };
+		F5B3082725BD8F63009348DB /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3082625BD8F63009348DB /* APIServices.swift */; };
+		F5B3082925BD9369009348DB /* SummaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B3082825BD9369009348DB /* SummaryModel.swift */; };
 		F5B64F9725BCAADE00172C25 /* splashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5B64F9625BCAADE00172C25 /* splashScreenView.swift */; };
 		F5E9331A25BC32FA00FA9210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9331925BC32FA00FA9210 /* AppDelegate.swift */; };
 		F5E9331C25BC32FA00FA9210 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9331B25BC32FA00FA9210 /* SceneDelegate.swift */; };
-		F5E9331E25BC32FA00FA9210 /* WatchListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9331D25BC32FA00FA9210 /* WatchListViewController.swift */; };
+		F5E9331E25BC32FA00FA9210 /* StockChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9331D25BC32FA00FA9210 /* StockChartViewController.swift */; };
 		F5E9332125BC32FA00FA9210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9331F25BC32FA00FA9210 /* Main.storyboard */; };
 		F5E9332325BC330700FA9210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5E9332225BC330700FA9210 /* Assets.xcassets */; };
 		F5E9332625BC330700FA9210 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5E9332425BC330700FA9210 /* LaunchScreen.storyboard */; };
 		F5E9333125BC330800FA9210 /* StockManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9333025BC330800FA9210 /* StockManagerTests.swift */; };
 		F5E9333C25BC330800FA9210 /* StockManagerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9333B25BC330800FA9210 /* StockManagerUITests.swift */; };
 		F5E9334A25BC630400FA9210 /* HisoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9334925BC630400FA9210 /* HisoryModel.swift */; };
-		F5E9334D25BC694400FA9210 /* WatchListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9334C25BC694400FA9210 /* WatchListConfigurator.swift */; };
-		F5E9334F25BC698E00FA9210 /* WatchListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9334E25BC698E00FA9210 /* WatchListPresenter.swift */; };
-		F5E9335125BC699E00FA9210 /* WatchListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9335025BC699E00FA9210 /* WatchListRouter.swift */; };
-		F5E9335325BC69AF00FA9210 /* WatchListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9335225BC69AF00FA9210 /* WatchListInteractor.swift */; };
-		F5E9335525BC69BF00FA9210 /* WatchListInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9335425BC69BF00FA9210 /* WatchListInterface.swift */; };
-		F5E9335825BC6AED00FA9210 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9335725BC6AED00FA9210 /* APIModel.swift */; };
+		F5E9334D25BC694400FA9210 /* StockChartConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9334C25BC694400FA9210 /* StockChartConfigurator.swift */; };
+		F5E9334F25BC698E00FA9210 /* StockChartPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9334E25BC698E00FA9210 /* StockChartPresenter.swift */; };
+		F5E9335125BC699E00FA9210 /* StockChartRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9335025BC699E00FA9210 /* StockChartRouter.swift */; };
+		F5E9335325BC69AF00FA9210 /* StockChartInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9335225BC69AF00FA9210 /* StockChartInteractor.swift */; };
+		F5E9335525BC69BF00FA9210 /* StockChartInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9335425BC69BF00FA9210 /* StockChartInterface.swift */; };
+		F5E9335825BC6AED00FA9210 /* APIUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9335725BC6AED00FA9210 /* APIUtility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,11 +64,20 @@
 		9B7E9B45B77187AF7F57F240 /* Pods_StockManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35A958579C4E6707B551583 /* Pods-StockManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockManager.debug.xcconfig"; path = "Target Support Files/Pods-StockManager/Pods-StockManager.debug.xcconfig"; sourceTree = "<group>"; };
 		EC5C2C6691803E475D3886BF /* Pods-StockManager-StockManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockManager-StockManagerUITests.release.xcconfig"; path = "Target Support Files/Pods-StockManager-StockManagerUITests/Pods-StockManager-StockManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5B3081625BD696C009348DB /* WatchListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListConfigurator.swift; sourceTree = "<group>"; };
+		F5B3081825BD69F2009348DB /* WatchListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListPresenter.swift; sourceTree = "<group>"; };
+		F5B3081A25BD6A04009348DB /* WatchListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListInteractor.swift; sourceTree = "<group>"; };
+		F5B3081C25BD6A14009348DB /* WatchListInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListInterface.swift; sourceTree = "<group>"; };
+		F5B3081E25BD6A2C009348DB /* WatchListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListRouter.swift; sourceTree = "<group>"; };
+		F5B3082025BD6A3D009348DB /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
+		F5B3082425BD893E009348DB /* DateUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtility.swift; sourceTree = "<group>"; };
+		F5B3082625BD8F63009348DB /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		F5B3082825BD9369009348DB /* SummaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryModel.swift; sourceTree = "<group>"; };
 		F5B64F9625BCAADE00172C25 /* splashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = splashScreenView.swift; sourceTree = "<group>"; };
 		F5E9331625BC32FA00FA9210 /* StockManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StockManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E9331925BC32FA00FA9210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5E9331B25BC32FA00FA9210 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5E9331D25BC32FA00FA9210 /* WatchListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewController.swift; sourceTree = "<group>"; };
+		F5E9331D25BC32FA00FA9210 /* StockChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartViewController.swift; sourceTree = "<group>"; };
 		F5E9332025BC32FA00FA9210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5E9332225BC330700FA9210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5E9332525BC330700FA9210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,12 +89,12 @@
 		F5E9333B25BC330800FA9210 /* StockManagerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockManagerUITests.swift; sourceTree = "<group>"; };
 		F5E9333D25BC330800FA9210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5E9334925BC630400FA9210 /* HisoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HisoryModel.swift; sourceTree = "<group>"; };
-		F5E9334C25BC694400FA9210 /* WatchListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListConfigurator.swift; sourceTree = "<group>"; };
-		F5E9334E25BC698E00FA9210 /* WatchListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListPresenter.swift; sourceTree = "<group>"; };
-		F5E9335025BC699E00FA9210 /* WatchListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListRouter.swift; sourceTree = "<group>"; };
-		F5E9335225BC69AF00FA9210 /* WatchListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListInteractor.swift; sourceTree = "<group>"; };
-		F5E9335425BC69BF00FA9210 /* WatchListInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListInterface.swift; sourceTree = "<group>"; };
-		F5E9335725BC6AED00FA9210 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		F5E9334C25BC694400FA9210 /* StockChartConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartConfigurator.swift; sourceTree = "<group>"; };
+		F5E9334E25BC698E00FA9210 /* StockChartPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartPresenter.swift; sourceTree = "<group>"; };
+		F5E9335025BC699E00FA9210 /* StockChartRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartRouter.swift; sourceTree = "<group>"; };
+		F5E9335225BC69AF00FA9210 /* StockChartInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartInteractor.swift; sourceTree = "<group>"; };
+		F5E9335425BC69BF00FA9210 /* StockChartInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockChartInterface.swift; sourceTree = "<group>"; };
+		F5E9335725BC6AED00FA9210 /* APIUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUtility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +138,38 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F5B3081525BD6948009348DB /* WatchList */ = {
+			isa = PBXGroup;
+			children = (
+				F5B3081625BD696C009348DB /* WatchListConfigurator.swift */,
+				F5B3081825BD69F2009348DB /* WatchListPresenter.swift */,
+				F5B3081A25BD6A04009348DB /* WatchListInteractor.swift */,
+				F5B3081C25BD6A14009348DB /* WatchListInterface.swift */,
+				F5B3081E25BD6A2C009348DB /* WatchListRouter.swift */,
+				F5B3082025BD6A3D009348DB /* WatchListViewController.swift */,
+			);
+			path = WatchList;
+			sourceTree = "<group>";
+		};
+		F5B3082225BD888C009348DB /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9334B25BC68FA00FA9210 /* StockChart */,
+				F5B3081525BD6948009348DB /* WatchList */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F5B3082325BD88CE009348DB /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F5E9335725BC6AED00FA9210 /* APIUtility.swift */,
+				F5B3082425BD893E009348DB /* DateUtility.swift */,
+				F5B3082625BD8F63009348DB /* APIServices.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		F5B64F9525BCAA9700172C25 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,16 +203,16 @@
 		F5E9331825BC32FA00FA9210 /* StockManager */ = {
 			isa = PBXGroup;
 			children = (
+				F5B3082325BD88CE009348DB /* Utility */,
+				F5B3082225BD888C009348DB /* Scenes */,
 				F5B64F9525BCAA9700172C25 /* CustomViews */,
 				F5E9335625BC6AB400FA9210 /* Model */,
-				F5E9334B25BC68FA00FA9210 /* WatchList */,
 				F5E9331925BC32FA00FA9210 /* AppDelegate.swift */,
 				F5E9331B25BC32FA00FA9210 /* SceneDelegate.swift */,
 				F5E9331F25BC32FA00FA9210 /* Main.storyboard */,
 				F5E9332225BC330700FA9210 /* Assets.xcassets */,
 				F5E9332425BC330700FA9210 /* LaunchScreen.storyboard */,
 				F5E9332725BC330700FA9210 /* Info.plist */,
-				F5E9335725BC6AED00FA9210 /* APIModel.swift */,
 			);
 			path = StockManager;
 			sourceTree = "<group>";
@@ -185,23 +235,24 @@
 			path = StockManagerUITests;
 			sourceTree = "<group>";
 		};
-		F5E9334B25BC68FA00FA9210 /* WatchList */ = {
+		F5E9334B25BC68FA00FA9210 /* StockChart */ = {
 			isa = PBXGroup;
 			children = (
-				F5E9331D25BC32FA00FA9210 /* WatchListViewController.swift */,
-				F5E9334C25BC694400FA9210 /* WatchListConfigurator.swift */,
-				F5E9334E25BC698E00FA9210 /* WatchListPresenter.swift */,
-				F5E9335025BC699E00FA9210 /* WatchListRouter.swift */,
-				F5E9335225BC69AF00FA9210 /* WatchListInteractor.swift */,
-				F5E9335425BC69BF00FA9210 /* WatchListInterface.swift */,
+				F5E9331D25BC32FA00FA9210 /* StockChartViewController.swift */,
+				F5E9334C25BC694400FA9210 /* StockChartConfigurator.swift */,
+				F5E9334E25BC698E00FA9210 /* StockChartPresenter.swift */,
+				F5E9335025BC699E00FA9210 /* StockChartRouter.swift */,
+				F5E9335225BC69AF00FA9210 /* StockChartInteractor.swift */,
+				F5E9335425BC69BF00FA9210 /* StockChartInterface.swift */,
 			);
-			path = WatchList;
+			path = StockChart;
 			sourceTree = "<group>";
 		};
 		F5E9335625BC6AB400FA9210 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				F5E9334925BC630400FA9210 /* HisoryModel.swift */,
+				F5B3082825BD9369009348DB /* SummaryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -455,16 +506,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5E9331E25BC32FA00FA9210 /* WatchListViewController.swift in Sources */,
+				F5B3081925BD69F2009348DB /* WatchListPresenter.swift in Sources */,
+				F5E9331E25BC32FA00FA9210 /* StockChartViewController.swift in Sources */,
 				F5E9331A25BC32FA00FA9210 /* AppDelegate.swift in Sources */,
-				F5E9335325BC69AF00FA9210 /* WatchListInteractor.swift in Sources */,
-				F5E9334F25BC698E00FA9210 /* WatchListPresenter.swift in Sources */,
-				F5E9335825BC6AED00FA9210 /* APIModel.swift in Sources */,
+				F5E9335325BC69AF00FA9210 /* StockChartInteractor.swift in Sources */,
+				F5B3081F25BD6A2C009348DB /* WatchListRouter.swift in Sources */,
+				F5E9334F25BC698E00FA9210 /* StockChartPresenter.swift in Sources */,
+				F5E9335825BC6AED00FA9210 /* APIUtility.swift in Sources */,
+				F5B3081B25BD6A04009348DB /* WatchListInteractor.swift in Sources */,
+				F5B3082925BD9369009348DB /* SummaryModel.swift in Sources */,
 				F5B64F9725BCAADE00172C25 /* splashScreenView.swift in Sources */,
-				F5E9334D25BC694400FA9210 /* WatchListConfigurator.swift in Sources */,
+				F5E9334D25BC694400FA9210 /* StockChartConfigurator.swift in Sources */,
+				F5B3082125BD6A3D009348DB /* WatchListViewController.swift in Sources */,
+				F5B3081D25BD6A14009348DB /* WatchListInterface.swift in Sources */,
 				F5E9331C25BC32FA00FA9210 /* SceneDelegate.swift in Sources */,
-				F5E9335525BC69BF00FA9210 /* WatchListInterface.swift in Sources */,
-				F5E9335125BC699E00FA9210 /* WatchListRouter.swift in Sources */,
+				F5B3082725BD8F63009348DB /* APIServices.swift in Sources */,
+				F5B3081725BD696C009348DB /* WatchListConfigurator.swift in Sources */,
+				F5E9335525BC69BF00FA9210 /* StockChartInterface.swift in Sources */,
+				F5E9335125BC699E00FA9210 /* StockChartRouter.swift in Sources */,
+				F5B3082525BD893E009348DB /* DateUtility.swift in Sources */,
 				F5E9334A25BC630400FA9210 /* HisoryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

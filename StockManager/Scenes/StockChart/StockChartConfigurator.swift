@@ -1,12 +1,12 @@
 import UIKit
 
-struct WatchListConfigurator {
-    // create Location Tracker view controller
+class StockChartConfigurator {
+    //MARK: - create Stock Chart view controller
     static func createViewController() -> UIViewController {
-        let viewController = WatchListViewController()
-        let presenter = WatchListPresenter()
-        let interactor = WatchListInteractor(presenter: presenter)
-        let router = WatchListRouter()
+        let viewController = StockChartViewController()
+        let presenter = StockChartPresenter()
+        let interactor = StockChartInteractor(presenter: presenter)
+        let router = StockChartRouter()
         
         viewController.interactor = interactor
         viewController.router = router

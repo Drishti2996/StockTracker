@@ -1,13 +1,11 @@
 import UIKit
-import CoreData
 
-class WatchListInteractor: WatchListBusinessLogic {
-    let presenter: WatchListPresenterLogic?
-    init(presenter: WatchListPresenterLogic) {
+class StockChartInteractor: StockChartBusinessLogic {
+    let presenter: StockChartPresenterLogic?
+    init(presenter: StockChartPresenterLogic) {
         self.presenter = presenter
     }
-    
-    
+    // MARK: - to fetch history data for stock from API
     func fetchHistory(searchText: String?) {
         var text: String?
         if let searchText = searchText {

@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
                window = UIWindow(frame: windowScene.coordinateSpace.bounds)
                window?.windowScene = windowScene
                window?.backgroundColor = .white
-        let viewController = WatchListConfigurator.createViewController()
+        let viewController = StockChartConfigurator.createViewController()
                let navigationController = UINavigationController(rootViewController: viewController)
                window?.rootViewController = navigationController
                window?.makeKeyAndVisible()

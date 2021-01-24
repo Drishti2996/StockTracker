@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
            window = UIWindow()
-        let viewController = WatchListConfigurator.createViewController()
+        let viewController = StockChartConfigurator.createViewController()
              let navigationController = UINavigationController(rootViewController: viewController)
              window?.rootViewController = navigationController
              window?.makeKeyAndVisible()

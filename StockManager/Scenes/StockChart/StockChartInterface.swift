@@ -1,19 +1,20 @@
 import UIKit
 import LightweightCharts
 
-protocol WatchListBusinessLogic {
+protocol StockChartBusinessLogic {
     func fetchHistory(searchText: String?)
 }
 
-protocol WatchListPresenterLogic {
+protocol StockChartPresenterLogic {
     func presentGraphDetails(history: History) 
     func errorScreen()
-  
 }
 
-protocol WatchListDisplayLogic: class {
+protocol StockChartDisplayLogic: class {
     func showChart(historyData: [BarData])
     func showErrorScreen()
 }
 
-protocol WatchListRouterLogic {}
+protocol StockChartRouterLogic {
+    func routeToWatchList(stockName: String)
+}

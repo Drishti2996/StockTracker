@@ -2,10 +2,10 @@
 //  HisoryModel.swift
 //  StockManager
 //
-//  Created by Nandini Sharma on 23/01/21.
+//  Created by Drishti Sharma on 23/01/21.
 //  Copyright © 2021 Drishti Sharma. All rights reserved.
 //
-
+//MARK: - history model 
 struct History: Decodable {
     let prices: [Price]?
 }
